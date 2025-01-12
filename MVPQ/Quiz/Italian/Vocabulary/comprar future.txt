@@ -1,0 +1,6 @@
+I will buy => compraré
+you (i) will buy => comprarás
+he will buy => comprará
+we will buy => compraremos
+you (p) will buy => compraréis
+they will buy => comprarán

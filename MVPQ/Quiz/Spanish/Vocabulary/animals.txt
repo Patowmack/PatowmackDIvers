@@ -1,0 +1,11 @@
+cat => gato
+kitten => gatito
+dog => perro
+puppy => perrito
+rabbit => conejo
+bird => pájaro
+horse => caballo
+mouse => ratón
+tortoise => tortuga
+cow => vaca
+pig => cerdo

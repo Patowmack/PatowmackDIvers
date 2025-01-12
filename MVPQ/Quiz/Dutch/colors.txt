@@ -1,0 +1,11 @@
+colors	kleuren
+black	zwart
+blue	blauw
+brown	bruin
+gray	grijs
+green	groen
+orange	oranje
+purple	paars
+red	rood
+white	wit
+yellow	geel

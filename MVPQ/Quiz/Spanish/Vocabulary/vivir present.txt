@@ -1,0 +1,6 @@
+I live|vivo
+you (s) live|vives
+he lives|vive
+we live|vivimos
+you (p) live|vivís
+they live|viven

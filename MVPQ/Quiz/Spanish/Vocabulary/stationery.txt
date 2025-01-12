@@ -1,0 +1,14 @@
+biro => un bolígrafo
+fountain pen => la estilográfica
+pencil => el lapíz
+eraser => el borrador
+chalk => la tiza
+blackboard => el encerado
+paper => el papel
+sheet of paper => una hoja de papel
+book => un libro
+text book => un libro de texto
+exercise => book un cuaderno
+rough book => un libro de preparación
+note book => un libro de apuntes
+calculator => una calculadora

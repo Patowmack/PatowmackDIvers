@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Land</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Land/</jalbum:absolutePath>
+        <item>
+            <title>POLY2354</title>
+            <link>http://362.520.myftpupload.com/Photos/Land/POLY2354.mp4</link>
+            <pubDate>Sat, 14 Dec 2013 16:03:44 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Land/thumbs/POLY2354.jpg" width="200" height="150"/>
+            <media:content  url="http://362.520.myftpupload.com/Photos/Land/POLY2354.mp4" width="960" height="540"/>
+            <jalbum:original url="http://362.520.myftpupload.com/Photos/Land/POLY2354.mp4" width="1920" height="1080" fileSize="39335716"/>
+            <guid isPermaLink="false">slides/POLY2354.jpg</guid>
+        </item>
+        <item>
+            <title>POLY2355</title>
+            <link>http://362.520.myftpupload.com/Photos/Land/POLY2355.mp4</link>
+            <pubDate>Sat, 14 Dec 2013 16:03:44 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Land/thumbs/POLY2355.jpg" width="200" height="150"/>
+            <media:content  url="http://362.520.myftpupload.com/Photos/Land/POLY2355.mp4" width="960" height="540"/>
+            <jalbum:original url="http://362.520.myftpupload.com/Photos/Land/POLY2355.mp4" width="1920" height="1080" fileSize="90950521"/>
+            <guid isPermaLink="false">slides/POLY2355.jpg</guid>
+        </item>
+        <item>
+            <title>OB132356</title>
+            <link>http://362.520.myftpupload.com/Photos/Land/OB132356.mp4</link>
+            <pubDate>Sat, 14 Dec 2013 16:03:44 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Land/thumbs/OB132356.jpg" width="200" height="150"/>
+            <media:content  url="http://362.520.myftpupload.com/Photos/Land/OB132356.mp4" width="960" height="540"/>
+            <jalbum:original url="http://362.520.myftpupload.com/Photos/Land/OB132356.mp4" width="1920" height="1080" fileSize="89126851"/>
+            <guid isPermaLink="false">slides/OB132356.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2348</title>
+            <link>http://362.520.myftpupload.com/Photos/Land/slides/_OLY2348.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:03:44 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Land/thumbs/_OLY2348.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Land/slides/_OLY2348.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2348.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2381</title>
+            <link>http://362.520.myftpupload.com/Photos/Land/slides/_OLY2381.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:03:44 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Land/thumbs/_OLY2381.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Land/slides/_OLY2381.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2381.jpg</guid>
+        </item>
+    </channel>
+</rss>

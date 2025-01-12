@@ -1,0 +1,7 @@
+tastes	smaken
+bitter	bitter
+fresh	fris
+salty	zout
+sour	zuur
+spicy	gekruid
+sweet	zoet

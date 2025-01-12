@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Seahorse</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Seahorse/</jalbum:absolutePath>
+        <item>
+            <title>_OLY2051</title>
+            <link>http://362.520.myftpupload.com/Photos/Seahorse/slides/_OLY2051.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Seahorse</description>
+            <media:description type="html">Seahorse</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Seahorse/thumbs/_OLY2051.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Seahorse/slides/_OLY2051.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2051.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2309</title>
+            <link>http://362.520.myftpupload.com/Photos/Seahorse/slides/_OLY2309.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Seahorse</description>
+            <media:description type="html">Seahorse</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Seahorse/thumbs/_OLY2309.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Seahorse/slides/_OLY2309.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2309.jpg</guid>
+        </item>
+    </channel>
+</rss>

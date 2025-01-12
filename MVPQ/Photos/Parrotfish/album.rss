@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Parrotfish</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Parrotfish/</jalbum:absolutePath>
+        <item>
+            <title>_OLY1900</title>
+            <link>http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1900.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Parrotfish</description>
+            <media:description type="html">Parrotfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Parrotfish/thumbs/_OLY1900.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1900.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1900.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1998</title>
+            <link>http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1998.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Parrotfish</description>
+            <media:description type="html">Parrotfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Parrotfish/thumbs/_OLY1998.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1998.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1998.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2103</title>
+            <link>http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY2103.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Parrotfish</description>
+            <media:description type="html">Parrotfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Parrotfish/thumbs/_OLY2103.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY2103.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2103.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1813</title>
+            <link>http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1813.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Parrotfish</description>
+            <media:description type="html">Parrotfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Parrotfish/thumbs/_OLY1813.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1813.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1813.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1832</title>
+            <link>http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1832.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Parrotfish</description>
+            <media:description type="html">Parrotfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Parrotfish/thumbs/_OLY1832.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1832.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1832.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1899</title>
+            <link>http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1899.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Parrotfish</description>
+            <media:description type="html">Parrotfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Parrotfish/thumbs/_OLY1899.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Parrotfish/slides/_OLY1899.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1899.jpg</guid>
+        </item>
+    </channel>
+</rss>

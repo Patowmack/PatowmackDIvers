@@ -1,0 +1,5 @@
+100 => cien
+152 => ciento cinquenta y dos
+1,000 => mil
+3,139 => tres mil ciento treinta y nueve
+1,000,000 => un millón

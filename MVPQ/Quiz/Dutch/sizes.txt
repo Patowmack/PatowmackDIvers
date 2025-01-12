@@ -1,0 +1,12 @@
+sizes	maten
+big	groot
+deep	diep
+long	lang
+narrow	smal
+short	kort
+small	klein
+tall	hoog/lang
+thick	dik
+thin	dun
+wide	breed
+

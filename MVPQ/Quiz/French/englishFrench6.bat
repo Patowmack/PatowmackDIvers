@@ -1,0 +1,6 @@
+CALL englishSpanish "%1 present.txt"
+CALL englishSpanish "%1 imperfect.txt"
+CALL englishSpanish "%1 past.txt"
+CALL englishSpanish "%1 future.txt"
+CALL englishSpanish "%1 conditional.txt"
+CALL englishSpanish "%1 present subjunctive.txt"

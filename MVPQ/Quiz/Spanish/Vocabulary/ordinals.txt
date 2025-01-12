@@ -1,0 +1,10 @@
+first => primero
+second => segundo
+third => tercero
+fourth => cuarto
+fifth => quinto
+sixth => sexto
+seventh => séptimo
+eighth => octavo
+ninth => noveno
+tenth => décimo

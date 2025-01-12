@@ -1,0 +1,7 @@
+I am	ik ben
+you (s) are	jij bent
+he is	hij is
+she is	zij is
+we are	wij zijn
+you (p) are	jullie zijn
+they are	zij zijn

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Shirmp</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Shirmp/</jalbum:absolutePath>
+        <item>
+            <title>_OLY2186</title>
+            <link>http://362.520.myftpupload.com/Photos/Shirmp/slides/_OLY2186.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Shirmp/thumbs/_OLY2186.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Shirmp/slides/_OLY2186.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2186.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2193</title>
+            <link>http://362.520.myftpupload.com/Photos/Shirmp/slides/_OLY2193.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Shrimp</description>
+            <media:description type="html">Shrimp</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Shirmp/thumbs/_OLY2193.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Shirmp/slides/_OLY2193.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2193.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2194</title>
+            <link>http://362.520.myftpupload.com/Photos/Shirmp/slides/_OLY2194.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Shrimp</description>
+            <media:description type="html">Shrimp</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Shirmp/thumbs/_OLY2194.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Shirmp/slides/_OLY2194.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2194.jpg</guid>
+        </item>
+    </channel>
+</rss>

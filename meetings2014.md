@@ -1,0 +1,89 @@
+::: {w3-include-html="navsite.html"}
+:::
+
+::: {.w3-row .w3-border}
+::: {.w3-container .w3-light-blue}
+2014 Meetings {#meetings .w3-text-shadow .w3-center}
+=============
+
+::: {.w3-container}
+### Thursday, December 11, 2014
+
+Brian Skerry at National Geographic
+:::
+
+::: {.w3-container}
+### Wednesday, October 1, 2014
+
+If you\'ve ever wondered about crab body guards and why you might want
+to wear one, come to our meeting
+
+Learn about goliath groupers and see a few pictures
+
+And hear about portable scrapbooks\...money and war
+
+And just talk about our next dive trips\...or our last dive trips\...or
+where we want to go diving next weekend.
+:::
+
+::: {.w3-container}
+### Wednesday, August 13, 2014
+
+YES, WE\'RE MEETING ON THE SECOND WEDNESDAY! We will have a special
+presentation form Amir Fogel.
+
+Amir Fogel is a graduate of Hampshire College in Amherst, MA. There he
+studied marine biology, with a focus in shark behavior and conservation,
+and documentary film. Amir has spent time volunteering in the Sian
+Ka\'an Biosphere Reserve near Tulum, Mexico as well as a volunteer diver
+at the Maritime Aquarium of Norwalk in CT. In addition, he is a PADI
+certified Dive Master and has just returned from working at a dive shop
+in Zihuatanejo, Mexico. His documentary, Niche, explores the many
+intricacies of current shark conservation measures. The film is a
+compilation of personal footage, stock footage, and interviews with
+professionals from many backgrounds. Niche is intended to first
+establish the importance of sharks to the survival of marine ecosystems,
+followed by a unique glance into the complexities of the challenges in
+current shark conservation measures. What sets, Niche, apart from other
+shark conservation films is the representation of diverse perspectives.
+Bringing the voices of commercial fishermen, scientists, and
+conservationists all to the table, in order to discuss the future of
+shark conservation.
+:::
+
+::: {.w3-container}
+### Wednesday, June 4, 2014
+
+We will meet at National Geographic to see their exhibit *Coral, Fire,
+and Ice* We will meet before the show for dinner and drinks. Exact time
+and location TBD. This replaces the regular June meeting.
+:::
+
+::: {.w3-container}
+### June 2014
+
+One weekend in June we will visit the nautical museum at the Navy Yard.
+Details are being worked out.
+:::
+
+::: {.w3-container}
+### Wednesday, March 5, 2014
+
+Michael Weiss will share his experiences and pictures of diving the
+Bahamas from a live aboard. Mike is an accomplished photographer whose
+pictures can be sampled at <http://www.underwatervisuals.com>
+
+### Wednesday, February 5, 2014
+
+Club member Ed Bullinger will talk about diving and underwater
+photography using one of his favorite dive sites: under the Blue Heron
+Bridge in West Palm Beach. The bridge is a really great shore dive and
+several club members go down to West Palm Beach once or twice a year to
+dive it. Of course, there\'s also great boat diving off West Palm. Ed
+was a professional photographer in the West Palm Beach area.
+:::
+:::
+:::
+
+::: {w3-include-html="footer.html"}
+:::

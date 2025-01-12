@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Splendid Toad Fish</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Splendid Toad Fish/</jalbum:absolutePath>
+        <item>
+            <title>_OLY2217</title>
+            <link>http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2217.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Splendid Toadfish</description>
+            <media:description type="html">Splendid Toadfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/thumbs/_OLY2217.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2217.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2217.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2218</title>
+            <link>http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2218.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Splendid Toadfish</description>
+            <media:description type="html">Splendid Toadfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/thumbs/_OLY2218.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2218.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2218.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2219</title>
+            <link>http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2219.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Splendid Toadfish</description>
+            <media:description type="html">Splendid Toadfish</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/thumbs/_OLY2219.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2219.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2219.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2471</title>
+            <link>http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2471.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/thumbs/_OLY2471.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2471.jpg" width="960" height="604"/>
+            <guid isPermaLink="false">slides/_OLY2471.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2472</title>
+            <link>http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2472.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/thumbs/_OLY2472.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/slides/_OLY2472.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2472.jpg</guid>
+        </item>
+    </channel>
+</rss>

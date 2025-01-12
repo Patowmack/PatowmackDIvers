@@ -1,0 +1,6 @@
+I was eating => comía
+you (s) were eating => comías
+he was eating => comía
+we were eating => comíamos
+you (p) were eating =>  comíais
+they were eating => comían

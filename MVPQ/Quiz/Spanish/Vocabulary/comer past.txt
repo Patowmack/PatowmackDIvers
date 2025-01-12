@@ -1,0 +1,6 @@
+I ate => comí
+you (s) ate => comiste
+he ate => comío
+we ate => comimos
+you(p) ate =>  comisteis
+they ate => comieron

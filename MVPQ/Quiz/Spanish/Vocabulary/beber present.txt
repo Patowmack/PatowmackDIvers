@@ -1,0 +1,6 @@
+I drink|bebo
+you (s) drink|bebes
+he drinks|bebe
+we drink|bebemos
+you (p) drink|bebéis
+they drink|beben

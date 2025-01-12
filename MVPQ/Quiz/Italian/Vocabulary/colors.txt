@@ -1,0 +1,11 @@
+black => negro
+white => blanco
+grey => gris
+red => rojo
+yellow => amarillo
+blue => azul
+orange => naranja
+pink => rosa
+green => verde
+brown => marrón
+purple => morado

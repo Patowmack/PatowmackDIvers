@@ -1,0 +1,25 @@
+numbers	telwoorden
+one	een
+two	twee
+three	drie
+four	vier
+five	vijf
+six	zes
+seven	zeven
+eight	acht
+nine	negen
+ten	tien
+eleven	elf
+twelve	twaalf
+thirteen	dertien
+fourteen	veertien
+fifteen	vijftien
+sixteen	zestien
+seventeen	zeventien
+eighteen	achttien
+nineteen	negentien
+twenty	twintig
+hundred	honderd
+one thousand	duizend
+million	miljoen
+

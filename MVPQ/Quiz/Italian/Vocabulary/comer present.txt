@@ -1,0 +1,6 @@
+I eat => como
+you (s) eat => comes
+he eats => come
+we eat => comemos
+you (p) eat => coméis
+they eat =>  comen

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>Patowmack Divers Home Page</title>
+      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/ico" href="./favicon.ico" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+      <script> 
+         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+         $(function () {
+         var includes = $('[data-include]')
+         $.each(includes, function () {
+         var file = $(this).data('include') + '.html'
+         $(this).load(file)
+         })
+         })
+      </script> 
+
+<style>
+p {
+    text-indent: 10px;
+</style>
+
+   </head>
+   <body class="bg-info">
+      <!-- header -->
+      <div class="container-fluid" style="height:100px">
+         <div class="row">
+            <div class = "col-sm-2">
+               <a href="index.html"> <img class="img-fluid float-start" style="height:100px"  src="/images/patodivr.jpg" alt="Patowmack Divers' Logo"> </a>
+            </div>
+            <div class = "col-sm-8 pt-4">
+               <h1 class="text-center"> patowmack divers</h1>
+            </div>
+            <div class = "col-sm-2">
+               <a href="index.html"><img class="img-fluid float-end"  style="height:100px" src="/images/patodivr.jpg" alt="Patowmack Divers' Logo"> </a>
+            </div>
+         </div>
+         <!-- row -->
+      </div>
+      <!-- end #header -->
+      <div data-include="navsite"></div>
+      <!-- MAIN -->
+
+            <div class="container">
+        <!-- col -->
+            <h5 class="text-center mt-5">Map to Our Meeting at Mylo's Grill</h5>
+            <p class="text-center mt-3">We meet in the back room at <a href="https://www.mylosgrill.com/"> Mylo's Grill</a>, 6238 Old Dominion Dr., McLean, VA 22101.</p>
+            <div class="float-center my-5" style="display: flex; justify-content: center;">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3104.1631246494067!2d-77.15211474838222!3d38.92024887946673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1671557664080!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+
+            <img src="https://maps.apple.com/place?q=Mylo%27s%20Grill&ll=38.9203674%2C-77.1501792&auid=16816917478954864278&lsp=9902&address=6238%20Old%20Dominion%20Dr%2C%20McLean%2C%20VA%20%2022101%2C%20United%20States" >
+
+            <a target="_blank" href="https://maps.apple.com/place?q=Mylo%27s%20Grill&ll=38.9203674%2C-77.1501792&auid=16816917478954864278&lsp=9902&address=6238%20Old%20Dominion%20Dr%2C%20McLean%2C%20VA%20%2022101%2C%20United%20States">map</a>
+
+
+
+      <div data-include="footer"></div>
+
+   </body>
+</html>
+

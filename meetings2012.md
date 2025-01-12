@@ -1,0 +1,59 @@
+::: {w3-include-html="navsite.html"}
+:::
+
+::: {.w3-row .w3-border}
+::: {.w3-container .w3-light-blue}
+2012 Meetings {#meetings .w3-text-shadow .w3-center}
+=============
+
+::: {.w3-container}
+### Wednesday, November 7, 2012
+
+This Wednesday November 7th at 7:30pm come hang out and have a drink
+with the Patowmack Diver Club and hear about diving off the Alaskan
+coast from Gloria Freund at the Patowmack Divers monthly club meeting at
+the Bistro Restaurant in the Holiday Inn at 625 First Street,
+Alexandria, VA. Here are a couple photos to whet your appetite for tales
+of cold water diving with astounding sights.
+
+We will also talk about a spring dive trip.
+:::
+
+::: {.w3-container}
+### Wednesday, August 2, 2012
+
+Eric Weiss and Kris Wetterstrand will show pictures from their Memorial
+Day weekend dive trip to West Palm Beach.
+:::
+
+::: {.w3-container}
+### Wednesday, July 11, 2012
+
+Brad Amador will show pictures from his recent dive trips.
+:::
+
+::: {.w3-container}
+### Wednesday, April 4, 2012
+
+We will not meet on April 4. Our meeting will be combined with the Pasta
+Pigout \-- that \"lowest form of dinner party\" with great food, lots of
+great company, great supply of wine, and a great time\--on Saturday,
+April 14 at 6 pm. Contact the club for details. We will have our regular
+meeting on Wednesday, May 2 when Dr Lita Proctor discusses her research
+on the role of microbes in the marine environment. June, July, and
+August programs will be announced soon.
+
+In the meantime, see our *New Trips* page for lots of upcoming trips.
+:::
+
+::: {.w3-container}
+### Wednesday, February 1, 2012
+
+New Dive Shop in The Area: Meet the owner of Submerged in Rockville and
+learn about what they have to offer.
+:::
+:::
+:::
+
+::: {w3-include-html="footer.html"}
+:::

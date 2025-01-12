@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>Patowmack Divers Home Page</title>
+      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/ico" href="./favicon.ico" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+      <script>
+         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+         $(function () {
+         var includes = $('[data-include]')
+         $.each(includes, function () {
+         var file = $(this).data('include') + '.html'
+         $(this).load(file)
+         })
+         })
+      </script>
+
+      <style>
+         p {
+             text-indent: 10px;
+         }
+
+         .dropdown-menu{
+         background-color: #6699FF;
+         border: 1px solid #D9534F;
+         }
+      </style>
+   </head>
+
+<body class="bg-info">
+<!--   <div data-include="body"></div>
+<div data-include="navsite"></div> -->
+  
+<!-- banner -->
+<div class="container-fluid" style="height:100px">
+   <div class="row">
+      <div class="col-sm-2">
+         <a href="index.html"> <img class="img-fluid float-start" style="height:100px" src="/images/patodivr.jpg" alt="Patowmack Divers' Logo" /> </a>
+      </div>
+      <div class="col-sm-8 pt-4">
+         <h1 class="text-center">patowmack divers</h1>
+      </div>
+      <div class="col-sm-2">
+         <a href="index.html"><img class="img-fluid float-end" style="height:100px" src="/images/patodivr.jpg" alt="Patowmack Divers' Logo" /> </a>
+      </div>
+   </div>
+   <!-- row -->
+</div>
+<!-- end banner -->
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark ps-5">
+	<!-- <div class="container-fluid "> -->
+    <a class="navbar-brand" href="http://pdc.mvpq.org">Home</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Past Meetings</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="/meetings2022.html">2022</a></li>
+					<li><a class="dropdown-item" href="/meetings2021.html">2021</a></li>
+					<li><a class="dropdown-item" href="/meetings2020.html">2020</a></li>
+					<li><a class="dropdown-item" href="/meetings2019.html">2019</a></li>
+					<li><a class="dropdown-item" href="/meetings2018.html">2018</a></li>
+					<li><a class="dropdown-item" href="/meetings2017.html">2017</a></li>
+					<li><a class="dropdown-item" href="/meetings2016.html">2016</a></li>
+					<li><a class="dropdown-item" href="/meetings2015.html">2015</a></li>
+					<li><a class="dropdown-item" href="/meetings2014.html">2014</a></li>
+					<li><a class="dropdown-item" href="/meetings2013.html">2013</a></li>
+					<li><a class="dropdown-item" href="/meetings2012.html">2012</a></li>
+					<li><a class="dropdown-item" href="/meetings2011.html">2011</a></li>
+				</ul>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Trip Reports</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="/2009StVincent.html">St. Vincent (2009)</a></li>
+					<li><a class="dropdown-item" href="/2010WPB.html">West Palm Beach (2010)</a></li>
+					<li><a class="dropdown-item" href="/2010CrystalRiver.html">Crystal River Manatees (2010)</a></li>
+					<li><a class="dropdown-item" href="/2011TCI.html">Turcs and Caicos (2011)</a></li>
+					<li><a class="dropdown-item" href="/2012Utila.html">Utila (2012)</a></li>
+					<li><a class="dropdown-item" href="/2013Cozumel.html">Cozumel (2013)</a></li>
+					<li><a class="dropdown-item" href="/2016Keys.html">Keys (2016)</a></li>
+					<li><a class="dropdown-item" href="/2016StMaartenSabaStKitts.html">St. Maarten, Saba, St. Kitts Liveaboard (2016) </a></li>
+				</ul>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Join Us</a>
+				<ul class="dropdown-menu">
+					<li><a target="_blank" class="dropdown-itme" href="bylaws.html">Bylaws</a></li>
+					<li><a target="_blank" class="dropdown-itme" href="join.html">Membership</a></li>
+				</ul>
+			</li>
+
+            <li class-"nav-item">
+                         <a class="nav-link" target="_blank" href="https://maps.apple.com/place?q=Mylo%27s%20Grill&ll=38.9203674%2C-77.1501792&auid=16816917478954864278&lsp=9902&address=6238%20Old%20Dominion%20Dr%2C%20McLean%2C%20VA%20%2022101%2C%20United%20States">Map</a>
+            </li>
+
+		</ul>
+	</div>
+</nav>
+
+<div class="container-fluid">
+<div class="row mx-4">
+  
+<h4 class="text-center">2021 Meetings</h4>
+<h6 ><strong>Monday, November 1, 2021</strong><h6>
+<p>Following club business, Ernie Franklin will give a presentation about the activities of the Diving with a Purpose (DWP) organization. DWP (<a href="https://divingwithapurpose.org/" class="uri">https://divingwithapurpose.org/</a>) is a leading international organization that provides education and training programs, mission leadership, and project support services for submerged heritage preservation and conservation projects worldwide with a focus on the African Diaspora. </p>
+<p>Born in Michigan, Ernie Franklin (<a href="https://uasdivers.org/ernie-franklin/" class="uri">https://uasdivers.org/ernie-franklin/</a>) was scuba certified by the Under Water Adventure Seekers Club (UAS) of Washington DC. The Underwater Adventure Seekers Club created in 1959 is the founding club of the National Association of Black Scuba Divers A graduate of the Tuskegee Institute, he's a PADI certified Open Water Dive Instructor, a Scientific Diver for both NOAA and for the American Academy of Underwater Sciences (AAUS) and Education Director for the Youth program at Diving with a Purpose.</p>
+
+<img src="images/2021/program-1.jpg" style="width:20.0%" /> 
+<img src="images/2021/program-3.jpg" style="width:20.0%" /></p>
+
+
+<p>Also, since we recently had a presentation on Great Lakes diving, club members might find these two links interesting reading:</p>
+
+<p><a href="https://oceanexplorer.noaa.gov/explorations/18aviatorsdown/welcome.html" class="uri">https://oceanexplorer.noaa.gov/explorations/18aviatorsdown/welcome.html</a><br />
+<a href="https://www.pressandguide.com/2021/09/23/lake-huron-red-tails-recovering-michigans-history-of-the-tuskegee-airmen">https://www.pressandguide.com/2021/09/23/lake-huron-red-tails-recovering-michigans-history-of-the-tuskegee-airmen.</a></p>
+
+<h6 >Wednesday, June 3, 2021</h6>
+<p><strong>Macro photography in South Florida by Ariane Dimitris.</strong> Following club business, Ariane Dimitris will present. Ari is an avid diver and underwater photographer in South Florida. She will present macro shots from her many diving adventures.</p>
+<h6 >Wednesday, May 7, 2021</h6>
+<p>Divers know our reefs are under threat, but you can help protect them (and yourself) every time you apply sunscreen. Ingredients like oxybenzone, parabens and mineral oils in sunscreens and body-care products can harm our oceans, rivers, lakes and streams. Studies have shown that coral-reef damage can be caused by these ingredients and they are making their way into the waterways and popular reefs in surprisingly high concentrations. Join us as we welcome Mike Materre, Vice President of Stream2Sea, who will tell the story of the development of this reef-safe sunscreen and body-care products company founded in 2015 by Autumn Blum, a cosmetic chemist and scuba diver. Where: Zoom information will be sent at a later time.</p>
+<p>For some background information, there an article from the MIT alumni association <a href="https://alum.mit.edu/slice/protecting-worlds-vanishing-coral-reefs?utm_source=techconnection&amp;utm_medium=email&amp;utm_campaign=slice">here</a></p>
+
+<img src="images/2021/S2Sea1.jpg" style="width:20.0%">
+<img src="images/2021/S2Sea2.jpg" style="width:20.0%" />
+
+<h6 >Wednesday, April 7, 2021</h6>
+<p><strong>Mike Evermore</strong> will discuss invasive species in quaries.</p>
+
+<h6 >Wednesday, March 3, 2021</h6>
+<p>After club business, <strong>Sandra Edwards</strong> will show pictures from under the <strong>Blue Heron Bridge</strong> in West Palm Beach. The water under BHB abounds in small creatures such as <strong>nudibranchs</strong> and Sandra has spent many productive dives finding them and photographing them. See her pictures on Facebook's <em>Underwater Macro in the Americas</em> group.</p>
+
+<img src="images/2021/EdwardsArrowCrab.jpg" style="width:20.0%" >
+<img src="images/2021/EdwardsEviridis.jpg" style="width:20.0%" />
+
+<h6 >Wednesday, February 3, 2021</h6>
+<p>After club business, our own Gloria Freund will unveil the new director’s extended cut of “Carnal Capers of the Giant Cuttlefish.”</p>
+<h6 >Wednesday, January 6, 2021</h6>
+<p>Our January meeting was canceled. Gloria's presentation will be at our February meeting.</p>
+<p>After club business, our own Gloria Freund will unveil the new director’s extended cut of “Carnal Capers of the Giant Cuttlefish.”</p>
+   <div class="container" style="height: 50px"><img src="images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
+   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="/images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
+  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
+
+   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   </body>
+</html>
+

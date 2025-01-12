@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Turtles</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Turtles/</jalbum:absolutePath>
+        <item>
+            <title>_OLY1771</title>
+            <link>http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY1771.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Turtles/thumbs/_OLY1771.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY1771.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1771.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1773</title>
+            <link>http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY1773.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Turtles/thumbs/_OLY1773.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY1773.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1773.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1774</title>
+            <link>http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY1774.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Turtles/thumbs/_OLY1774.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY1774.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1774.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2210</title>
+            <link>http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY2210.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Turtle</description>
+            <media:description type="html">Turtle</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Turtles/thumbs/_OLY2210.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY2210.jpg" width="843" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2210.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2211</title>
+            <link>http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY2211.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Turtle</description>
+            <media:description type="html">Turtle</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Turtles/thumbs/_OLY2211.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Turtles/slides/_OLY2211.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2211.jpg</guid>
+        </item>
+    </channel>
+</rss>

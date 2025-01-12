@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Rescue Divers</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Rescue Divers/</jalbum:absolutePath>
+        <item>
+            <title>_OLY2358</title>
+            <link>http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2358.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Rescue Diver</description>
+            <media:description type="html">Rescue Diver</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Rescue Divers/thumbs/_OLY2358.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2358.jpg" width="960" height="720"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="OLYMPUS IMAGING CORP.  " cameraModel="E-PL5           "/>
+            <guid isPermaLink="false">slides/_OLY2358.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2359</title>
+            <link>http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2359.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Rescue Diver</description>
+            <media:description type="html">Rescue Diver</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Rescue Divers/thumbs/_OLY2359.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2359.jpg" width="960" height="720"/>
+            <jalbum:exif originalDate="$originalDate" cameraMake="OLYMPUS IMAGING CORP.  " cameraModel="E-PL5           "/>
+            <guid isPermaLink="false">slides/_OLY2359.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2319</title>
+            <link>http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2319.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Rescue Diver</description>
+            <media:description type="html">Rescue Diver</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Rescue Divers/thumbs/_OLY2319.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2319.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2319.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2328</title>
+            <link>http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2328.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Rescue Diver</description>
+            <media:description type="html">Rescue Diver</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Rescue Divers/thumbs/_OLY2328.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2328.jpg" width="900" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2328.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2330</title>
+            <link>http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2330.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Rescue Diver</description>
+            <media:description type="html">Rescue Diver</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Rescue Divers/thumbs/_OLY2330.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2330.jpg" width="900" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2330.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2351</title>
+            <link>http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2351.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description>Rescue Diver</description>
+            <media:description type="html">Rescue Diver</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Rescue Divers/thumbs/_OLY2351.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Rescue Divers/slides/_OLY2351.jpg" width="576" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2351.jpg</guid>
+        </item>
+    </channel>
+</rss>

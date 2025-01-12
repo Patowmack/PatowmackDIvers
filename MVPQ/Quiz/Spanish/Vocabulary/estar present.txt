@@ -1,0 +1,6 @@
+I am|estoy
+you (s) are|estás
+he is|está
+we are|estamos
+you (p) are|estáis
+they are|están

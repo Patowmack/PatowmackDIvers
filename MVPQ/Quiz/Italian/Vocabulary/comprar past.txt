@@ -1,0 +1,6 @@
+I bought => compré
+you (i) bought => compraste
+he bought => compró
+we bought => comprámos
+you (p) bought => comprasteis
+they bought => compraron

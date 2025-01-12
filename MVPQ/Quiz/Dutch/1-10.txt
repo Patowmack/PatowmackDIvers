@@ -1,0 +1,11 @@
+numbers	telwoorden
+one	een
+two	twee
+three	drie
+four	vier
+five	vijf
+six	zes
+seven	zeven
+eight	acht
+nine	negen
+ten	tien

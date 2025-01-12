@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>What</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/What/</jalbum:absolutePath>
+        <item>
+            <title>_OLY2148</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2148.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2148.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2148.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2148.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2149</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2149.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2149.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2149.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2149.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2150</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2150.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2150.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2150.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2150.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2162</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2162.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2162.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2162.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2162.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2166</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2166.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2166.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2166.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2166.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2168</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2168.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2168.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2168.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2168.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2169</title>
+            <link>http://362.520.myftpupload.com/Photos/What/slides/_OLY2169.jpg</link>
+            <pubDate>Mon, 09 Dec 2013 22:50:22 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/What/thumbs/_OLY2169.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/What/slides/_OLY2169.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2169.jpg</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,26 @@
+airport => el aeropuerto
+bank => el banco
+bookshop => la librería
+brasserie => la cervecería
+café => la cafetería
+department store => el almacén
+fire station => la estación de bomberos
+hospital => el hospital
+inn => la posada
+kindergarten => la guardería
+library => la biblioteca
+market => el mercado
+municipality => la municipalidad
+museum => el museo
+petrol station => la gasolinera
+pharmacy => la farmacia
+police station => la policía
+railway station => la estación de ferrocarril
+restaurant => el restaurante
+school => la escuela
+shop => la tienda
+shop window => el escaparate
+sidewalk => la acera
+stadium => el estadio
+stop => la parada
+

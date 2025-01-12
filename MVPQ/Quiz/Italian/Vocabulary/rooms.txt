@@ -1,0 +1,14 @@
+attic => el ático
+basement => el sótano
+bathroom => el baño
+bedroom => el dormitorio
+closet => el armario
+courtyard => el patio
+den, study => el estudio
+dining room => el comedor
+entryway => la entrada
+family room => la estancia
+garage => la cochera
+kitchen => la cocina
+living room => el salón
+room => el cuarto 

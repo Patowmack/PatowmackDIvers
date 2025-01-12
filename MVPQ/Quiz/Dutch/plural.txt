@@ -1,0 +1,10 @@
+Plural	Meervoud
+my book	mijn boek
+my books	mijn boeken
+our daughter	onze dochter
+our daughters	onze dochters
+I'm cold	Ik heb het koud
+we're cold	Wij hebben het koud.
+his chickens	zijn kippen
+their chicken	hun kip
+``

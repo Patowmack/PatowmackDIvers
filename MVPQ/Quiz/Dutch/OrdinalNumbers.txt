@@ -1,0 +1,23 @@
+Ordinal Numbers	rangtelwoorden
+first	eerste
+second	tweede
+third	derde
+fourth	vierde
+fifth	vijfde
+sixth	zesde
+seventh	zevende
+eighth	achtste
+ninth	negende
+tenth	tiende
+eleventh	elfde
+twelfth	twaalfde
+thirteenth	dertiende
+fourteenth	veertiende
+fifteenth	vijftiende
+sixteenth	zestiende
+seventeenth	zeventiende
+eighteenth	achttiende
+nineteenth	negentiende
+twentieth	twintigste
+once	eenmaal
+twice	tweemaal

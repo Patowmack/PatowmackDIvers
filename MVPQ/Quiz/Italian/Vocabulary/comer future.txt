@@ -1,0 +1,6 @@
+I will eat => comeré
+you (s) will eat => comerás
+he will eat => comerá
+we will eat => comeremos
+you (p) will eat => comeréis
+they will eat => comerán

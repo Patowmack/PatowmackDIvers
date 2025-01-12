@@ -1,0 +1,6 @@
+I would eat => comería
+you (s) would eat => comerías
+he would eat => comería
+we would eat => comeríamos
+you(p) would eat => comeríais
+they would eat => comerían

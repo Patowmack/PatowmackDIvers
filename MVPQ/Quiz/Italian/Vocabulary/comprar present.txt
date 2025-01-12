@@ -1,0 +1,7 @@
+I buy => compro
+you (i) buy => compras
+he buys => compra
+we buy => compramos
+you (p) buy => compráis
+they buy => compran
+

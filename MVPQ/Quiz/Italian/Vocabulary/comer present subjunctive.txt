@@ -1,0 +1,6 @@
+that I eat => coma
+that you (s) eat =>  comas
+they he eats => coma
+that we eat => comamos
+that you (p) eat => comáis
+that they eat => coman

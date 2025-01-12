@@ -1,0 +1,6 @@
+I was buying => compraba
+you (i) were buying => comprabas
+he was buying => compraba
+were were buying => comprábamos
+you (p) were buying => comprabais
+they were buying => compraban

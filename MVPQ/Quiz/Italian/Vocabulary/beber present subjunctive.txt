@@ -1,0 +1,6 @@
+that I drink|beba
+that you (s) drink|bebas
+that he drinks|beba
+that we drink|bebamos
+that you (p) drink|bebáis
+that they drink|beban

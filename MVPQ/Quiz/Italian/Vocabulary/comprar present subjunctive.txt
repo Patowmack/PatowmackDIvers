@@ -1,0 +1,6 @@
+that I buy => compre
+that you (s) buy => compres
+that he buys => compre
+that we buy => compremos
+that you (p) buy => compréis
+that they buy =>  compren

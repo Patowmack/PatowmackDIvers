@@ -1,0 +1,19 @@
+the mother => la madre
+the father => el padre
+the parents => los padres
+the brother => el hermano
+the sister => la hermana
+the niece => la sobrina
+the nephew => el sobrino
+the cousin => el primo
+the uncle => el tío
+the aunt => la tía
+the brother-in-law => el cuñado
+the sister-in-law => la cuñado
+the father-in-law => el suegro
+the mother-in-law => la suegra
+the grandfather => el abuelo
+the grandmother => la abuela
+the parents => los padres
+the relatives => los parientes
+

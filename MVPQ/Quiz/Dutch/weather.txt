@@ -1,0 +1,20 @@
+weather	weer
+bad weather	slecht weer
+cloudy	bewolkt
+cold	koud
+cool	koel
+foggy	mistig
+hot	warm
+nice weather	mooi weer
+pouring	gieten
+rain	regen
+raining	regent
+snow	sneeuw
+snowing	sneeuwt
+ice	ijs
+sunny	zonnig
+windy	winderig
+spring	voorjaar/lente
+summer	zomer
+autumn	herfst
+winter	winter

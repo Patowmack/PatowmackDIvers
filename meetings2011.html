@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>Patowmack Divers Home Page</title>
+      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/ico" href="./favicon.ico" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+      <script>
+         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+         $(function () {
+         var includes = $('[data-include]')
+         $.each(includes, function () {
+         var file = $(this).data('include') + '.html'
+         $(this).load(file)
+         })
+         })
+      </script>
+
+      <style>
+         p {
+             text-indent: 10px;
+         }
+
+         .dropdown-menu{
+         background-color: #6699FF;
+         border: 1px solid #D9534F;
+         }
+      </style>
+   </head>
+
+<body class="bg-info">
+<!--   <div data-include="body"></div>
+<div data-include="navsite"></div> -->
+  
+<!-- banner -->
+<div class="container-fluid" style="height:100px">
+   <div class="row">
+      <div class="col-sm-2">
+         <a href="index.html"> <img class="img-fluid float-start" style="height:100px" src="/images/patodivr.jpg" alt="Patowmack Divers' Logo" /> </a>
+      </div>
+      <div class="col-sm-8 pt-4">
+         <h1 class="text-center">patowmack divers</h1>
+      </div>
+      <div class="col-sm-2">
+         <a href="index.html"><img class="img-fluid float-end" style="height:100px" src="/images/patodivr.jpg" alt="Patowmack Divers' Logo" /> </a>
+      </div>
+   </div>
+   <!-- row -->
+</div>
+<!-- end banner -->
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark ps-5">
+	<!-- <div class="container-fluid "> -->
+    <a class="navbar-brand" href="http://pdc.mvpq.org">Home</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Past Meetings</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="/meetings2022.html">2022</a></li>
+					<li><a class="dropdown-item" href="/meetings2021.html">2021</a></li>
+					<li><a class="dropdown-item" href="/meetings2020.html">2020</a></li>
+					<li><a class="dropdown-item" href="/meetings2019.html">2019</a></li>
+					<li><a class="dropdown-item" href="/meetings2018.html">2018</a></li>
+					<li><a class="dropdown-item" href="/meetings2017.html">2017</a></li>
+					<li><a class="dropdown-item" href="/meetings2016.html">2016</a></li>
+					<li><a class="dropdown-item" href="/meetings2015.html">2015</a></li>
+					<li><a class="dropdown-item" href="/meetings2014.html">2014</a></li>
+					<li><a class="dropdown-item" href="/meetings2013.html">2013</a></li>
+					<li><a class="dropdown-item" href="/meetings2012.html">2012</a></li>
+					<li><a class="dropdown-item" href="/meetings2011.html">2011</a></li>
+				</ul>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Trip Reports</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="/2009StVincent.html">St. Vincent (2009)</a></li>
+					<li><a class="dropdown-item" href="/2010WPB.html">West Palm Beach (2010)</a></li>
+					<li><a class="dropdown-item" href="/2010CrystalRiver.html">Crystal River Manatees (2010)</a></li>
+					<li><a class="dropdown-item" href="/2011TCI.html">Turcs and Caicos (2011)</a></li>
+					<li><a class="dropdown-item" href="/2012Utila.html">Utila (2012)</a></li>
+					<li><a class="dropdown-item" href="/2013Cozumel.html">Cozumel (2013)</a></li>
+					<li><a class="dropdown-item" href="/2016Keys.html">Keys (2016)</a></li>
+					<li><a class="dropdown-item" href="/2016StMaartenSabaStKitts.html">St. Maarten, Saba, St. Kitts Liveaboard (2016) </a></li>
+				</ul>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Join Us</a>
+				<ul class="dropdown-menu">
+					<li><a target="_blank" class="dropdown-itme" href="bylaws.html">Bylaws</a></li>
+					<li><a target="_blank" class="dropdown-itme" href="join.html">Membership</a></li>
+				</ul>
+			</li>
+
+            <li class-"nav-item">
+                         <a class="nav-link" target="_blank" href="https://maps.apple.com/place?q=Mylo%27s%20Grill&ll=38.9203674%2C-77.1501792&auid=16816917478954864278&lsp=9902&address=6238%20Old%20Dominion%20Dr%2C%20McLean%2C%20VA%20%2022101%2C%20United%20States">Map</a>
+            </li>
+
+		</ul>
+	</div>
+</nav>
+
+<div class="container-fluid">
+<div class="row mx-4">
+  
+<h4 class="text-center">2011 Meetings</h4>
+
+<h6>Wednesday, October 5, 2011--Diving Fiji</h6>
+Patowmack Divers members Gloria, Sarah and Kris showed pictures and discussed their trip in May to Fiji on the Nai'a
+
+<h6>Wednesday, September 7, 2011</h6>
+Marvin Barrash will discuss his book on the U.S.S. Cyclops.
+From the day it was realized that the U.S.S. Cyclops would never arrive at her destination, much attention has been drawn to the subject of this colossal collier. Many have been curious because of the mystery surrounding her disappearance in the area known as the Bermuda Triangle. Others are interested in naval history and some because of a family connection to a member of her crew. For more details click <a href="http://mysite.verizon.net/vzez3ezf/">here</a>
+<p>Also...<I>Shooting In The Wild</I> by Chris Palmer, and <I>Marine Sponges: Symbiotic Bacteria & New Drugs</I> by Dr. Russell Hill & Naomi Montavo.
+
+<h6>Wednesday, August 3, 2011</h6>
+Diving the U.S.S. Monitor - Archaeology at 240 feet with Ron Carmichael
+<p>The year 2011 marks the 150th anniversary of the beginning of the civil war. Technical Diving Instructor Ron Carmichael explored the wreck of the U.S.S. Monitor. Topics discussed include the wreck's history, Trimix dive planning for 240 foot dives and training required to dive such a historic deep wreck.  </p>
+
+<h6>Wednesday, May 4, 2011</h6>
+  New Frontiers In Dive Medicine
+<p>  Dr. Cook is a contributing author for the medical textbook <I>Expedition Medicine</I> to which he contributed chapters on dive medicine and hazardous marine life.  He is currently the Medical Editor for <I>Sport Diver Magazine</I>.  Dr. Cook has also served as a consultant to NOAA for search and rescue procedures in diving operations and is one of the contributing authors to the <I>NOAA Diving Manual</I>.  He is an award-winning underwater photographer whose photographs have been published in multiple magazines, books, and calendars.</P>
+
+<p>DAN Referral-Physician Dr. Craig Cook is involved in undersea exploration and undersea medicine.  As a physician he is especially interested in the mechanisms of decompression sickness and its treatment in remote locations.  He has been an active diver for more than 40 years and is a PADI dive instructor.  He also has technical diving certifications for both closed and semi-closed oxygen rebreathers.
+<p> Dr. Cook is a DAN Instructor with multiple certifications in diving accident management.  In addition, he has been a DAN referral physician for over 15 years.  His certifications also include that of a NOAA Diving Medical Officer (DMO).  Dr. Cook is a contributing author for the medical textbook <I>Expedition Medicine</I> to which he contributed chapters on dive medicine and hazardous marine life.  He is currently the Medical Editor for <I>Sport Diver Magazine</I>. 
+<p> In 2008 and 2009 he was the Diving Medical Officer (DMO) for two NOAA expeditions to research and document German U-boats that were lost off the North Carolina coast during the World War II Battle of the Atlantic.  He has also been the Diving Medical Officer on several scientific expeditions for reef surveys in the Central Pacific with the New England Aquarium, Woods Hole and Scripps Oceanographic Institutes.  He was involved with NOAA and the U.S. Navy as the DMO on the Monitor Expedition in 2003 during which the ironclad&apos;s turret was raised.  Dr. Cook has also served as a consultant to NOAA for search and rescue procedures in diving operations and is one of the contributing authors to the <I>NOAA Diving Manual</I>.  He is an award-winning underwater photographer whose photographs have been published in multiple magazines, books, and calendars.  Besides diving, Dr. Cook is a competitive cyclist and triathlete and has competed in the Hawaiian Ironman competition.
+<p>Dr. Cook is president of Undersea Medical Consultants in Severna Park, MD.</p>
+   <div class="container" style="height: 50px"><img src="images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
+   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="/images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
+  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
+
+   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   </body>
+</html>
+

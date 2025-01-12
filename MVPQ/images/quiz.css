@@ -1,0 +1,224 @@
+html {
+   margin:0;
+   padding:0px;
+   height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: Gainsboro;
+    background-size:100% 100%;
+    background-image:url('/images/_RAW0126.JPG');
+    text-align:center;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0.3em 0;
+    text-align:center;
+}
+
+img {
+  margin:1px;
+  border:1px solid #0000ff;
+  height:250px;
+  float:center;
+  text-align:center;
+  }
+
+a:link    {color:MidnightBlue;
+           text-decoration:none;
+   }
+a:visited {
+	   color:DodgerBlue;
+           text-decoration:none;
+   }
+a:hover   {color:SlateGray;}
+a:active  {color:yellow;}
+	
+
+#top {
+    position: absolute;
+}
+
+#container {
+    position:relative;
+}
+
+#menu {
+   border-top: 1px solid #000;
+   text-align:center;
+   font-family:"Times New Roman",Georgia,Serif;
+   font-size:12px;
+   background:Gainsboro;
+}
+
+#footer {
+   position:absolute;
+   border-top: 1px solid #000;
+   bottom:0px;
+   text-align:center;
+   font-family:"Times New Roman",Georgia,Serif;
+   font-size:12px;
+   background:Gainsboro;
+}
+
+
+/* ACCORDION */
+
+.accordion .sub-level {
+    height: 0;
+    overflow: hidden;
+}
+
+.accordion li:target .sub-level {
+    height: auto;
+    margin-left: 1.5em;
+}
+
+.accordion .top-level {
+    margin-bottom: 5px;
+}
+
+.accordion .top-level > a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.accordion .top-level > a:hover {
+    color: orange;
+}
+
+.accordion .top-level > a:before {
+    content: "?";
+}
+
+.accordion .top-level:target > a:before {
+    content: "?";
+}
+
+
+
+a.tooltip {outline:none; text-align:left; } 
+a.tooltip strong {line-height:30px;} 
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span { z-index:10;display:none; line-height:16px; } 
+a.tooltip:hover span{ display:block; color:#111; border:1px solid #DCA; background:#fffAF0;position:absolute;left:10px;} 
+.callout {z-index:20;border:0; width:240;position:abolute;} 
+
+/*CSS3 extras*/ a.tooltip span { border-radius:4px; 
+-moz-border-radius: 4px; 
+-webkit-border-radius: 4px; 
+-moz-box-shadow: 5px 5px 8px #CCC; 
+-webkit-box-shadow: 5px 5px 8px #CCC; 
+box-shadow: 5px 5px 8px #CCC; } 
+
+/* navsite */
+
+#navsite p {
+ display: none;
+}
+
+#navsite ul {
+    width: 100%;
+    float: left;
+ padding: 0;
+ margin-left: 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+#navsite ul li {
+ list-style: none;
+ margin: 0;
+ float: left;
+}
+
+#navsite ul li a {
+ padding: 4px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ text-decoration: none;
+ background-repeat: repeat-x;
+ display: block;
+ width: 12em;
+ font-size:8px;
+ visibility: visible;
+}
+
+#navsite ul li a:link {
+ color: white;
+}
+
+#navsite ul li a:visited {
+ color: #E0E0E0;
+}
+
+#navsite ul li a:link:hover, #navsite ul li a:visited:hover {
+ color: #000;
+ background-color: #aae;
+ border-color: #227;
+}
+
+#navsite ul li a#current {
+ background-color: white;
+ border-bottom: 1px solid white;
+color: #448;
+margin-bottom: -1px;
+}
+
+#navsite ul li a#current:hover {
+ background-image: url(title-glass.png);
+ background-position: 50%;
+ background-repeat: repeat-x;
+}
+
+#navsite ul ul li a {
+ padding: 4px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ text-decoration: none;
+ background-repeat: repeat-x;
+ display: block;
+ width: 12em;
+ font-size:8px;
+ visibility: hidden;
+}
+
+.clearfix:after {
+ content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+
+/* for IE6 */
+* html .clearfix {
+ height: 1%;
+}
+
+/* for IE7 */
+*:first-child+html .clearfix {
+ min-height: 1px;
+}
+
+        
+#navsite ul li ul {
+ position: absolute;
+ width: 7em;
+ left: -999em;
+ float: none;
+ border-bottom: none;
+}
+
+#navsite ul li:hover ul {left: auto;}
+
+#navsite ul li ul li a {
+ background: #999;
+ border: 1px solid black;
+ margin-top: 4px;
+

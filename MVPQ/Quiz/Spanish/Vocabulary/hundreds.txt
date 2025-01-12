@@ -1,0 +1,9 @@
+100 => cien
+200 => doscientos
+300 => trescientos
+400 => cuatrocientos
+500 => quinientos
+600 => seiscientos
+700 => setecientos
+800 => ochocientos
+900 => novecientos

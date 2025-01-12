@@ -1,0 +1,429 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F5FAFF ;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #4747A3;
+}
+
+
+h1, h2, h3, h4{
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: Navy;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+h2 {
+	font-weight: 400;
+	margin: 10 0 10px 0px;
+	padding: 6px 20px 2px 0px;
+	background: url(images/img02.jpg) repeat-x left bottom; 
+	text-transform: capitalize;
+	height: 140%;
+	font-size: 24px;
+	color: Navy;
+}
+
+h3 {
+	margin: 10 0 10px 0px;
+	padding: 6px 20px 2px 0px;
+	margin: 10 0 10px 0px;
+	padding: 6px 20px 2px 0px;
+	background: url(images/img02.jpg) repeat-x left bottom; 
+	text-transform: capitalize;
+        font-style: italic;
+	font-weight: 400;
+	height: 1440%;
+	font-size: 16px;
+	color: Navy;
+}
+
+h4 
+	font-size: 14px;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 140%;
+	text-align: justify;
+}
+
+ul, ol {
+}
+
+blockquote {
+}
+
+a {
+	color: SeaGreen;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.bottom {
+	width: 22%;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr {
+	background: DeepSkyBlue;
+	color: DeepSkyBlue;
+	height: 6px;
+        margin: 0 0 0 0;
+	padding 0 0 0 0;
+}
+
+li {
+	padding-left: 10px;
+	line-height: 140%;
+}
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+
+/* Header */
+
+#header {
+	height: 128px;
+	width: 100%;
+}
+/** LOGO */
+
+#logo {
+	float: left;
+	height: 45px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: 140%;
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family:  verdana;
+	font-weight: normal;
+	font-size: 36px;
+	font-weight: 900;
+	color:  Navy; 
+	
+}
+
+#logo p {
+	margin-top: -10px;
+	padding: 13px 0px 0px 5px;
+	text-transform: lowercase;
+	font-size: 16px;
+	color: Navy;
+}
+
+#logo p a {
+	color: Navy;
+}
+
+#logo h1 {
+	letter-spacing: -1px;
+	font-size: 48px;
+	color: Navy;
+}
+
+#logo a {
+	text-decoration: none;
+	color: Navy;
+	padding: 40px 0px 0px 120px;
+}
+
+/* Page */
+
+#page {
+	padding: 40px 0px 0px 120px;
+}
+#banner {
+	padding-bottom: 20px;
+}
+
+
+
+/* Main */
+
+#main {
+	float: left;
+	width: 60%;
+}
+
+#main li {
+        margin: 0px 0 0 20px;
+	line-height: 140%;
+}
+
+#main h1 h2 h3 h4 {
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 30%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: Navy;
+	line-height: 140%;
+	margin: 0 40px 0  40px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#sidebar ul ul {
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	background: url(images/img02.jpg) repeat-x left bottom; 
+}
+
+#sidebar ul li {
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	background: url(images/img02.jpg) repeat-x left bottom; 
+}
+
+#sidebar li {
+        margin: 0px 0 0 20px;
+	line-height: 140%;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+}
+
+#sidebar li li {
+	margin: 20px;
+	padding: 0px 0px 0px 0px;
+	background: url(images/img02.jpg) repeat-x left bottom; 
+}
+
+#sidebar li li a {
+	padding: 0px 20px;
+	font-weight: normal;
+	color: SeaGreen;
+}
+
+#sidebar h2 {
+	height: 30px;
+	margin: 10 0 10px 0px;
+	padding: 6px 20px 2px 0px;
+	background: url(images/img02.jpg) repeat-x left bottom; 
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#sidebar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: SeaGreen;
+}
+
+/* Footer */
+
+#footer {
+	float: left:
+	height: 30px;
+	padding: 0px, 0, 0px, 0px;
+	padding: 0px 0px 0px -120px;
+	color: DeepSkyBlue;
+	background: DeepSkyBlue;
+}
+
+#footer p {
+	margin: 0;
+	padding: 5px 0px 0px 30px;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: normal;
+	font-size: 14px;
+	color: Navy;
+}
+
+#footer a {
+}
+
+/* meetings */
+
+.meeting {
+	margin: 22px 0 10px 0;
+	line-height: 120%;
+	font-size: 12pt;
+}
+
+.meeting > .date {
+	font-weight: bold;
+	font-size: 16pt;
+	margin: 16px 0 10px 0;
+}
+
+
+.meeting .title {
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 12pt;
+	margin: 12px 0 4px 0;
+}
+
+.meeting >.speaker {
+	padding: 10px 5px 5px 10px;
+}
+
+.meeting .reports, .meeting .plans {
+	padding: 2px 5px 1px 10px;
+}
+
+.meeting li {
+	padding: 10px 5px 5px 10px;
+}
+
+/* navsite */
+
+#navsite p {
+ display: none;
+}
+
+#navsite ul {
+    width: 100%;
+    float: left;
+ padding: 0;
+ margin-left: 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+#navsite ul li {
+ list-style: none;
+ margin: 0;
+ float: left;
+}
+
+#navsite ul li a {
+ padding: 2px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background-color: Navy;
+ text-decoration: none;
+ background-image: url(title-glass.png);
+ background-position: 50%;
+ background-repeat: repeat-x;
+ display: block;
+ width: 12em;
+}
+
+#navsite ul li a:link {
+ color: white;
+}
+
+#navsite ul li a:visited {
+ color: #E0E0E0;
+}
+
+#navsite ul li a:link:hover, #navsite ul li a:visited:hover {
+ color: #000;
+ background-color: #aae;
+ border-color: #227;
+}
+
+#navsite ul li a#current {
+ background-color: white;
+ border-bottom: 1px solid white;
+color: #448;
+margin-bottom: -1px;
+}
+
+#navsite ul li a#current:hover {
+ background-image: url(title-glass.png);
+ background-position: 50%;
+ background-repeat: repeat-x;
+}
+
+.clearfix:after {
+ content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+
+/* for IE6 */
+* html .clearfix {
+ height: 1%;
+}
+
+/* for IE7 */
+*:first-child+html .clearfix {
+ min-height: 1px;
+}
+
+        
+#navsite ul li ul {
+ position: absolute;
+ width: 7em;
+ left: -999em;
+ float: none;
+ border-bottom: none;
+}
+
+#navsite ul li:hover ul {left: auto;}
+
+#navsite ul li ul li a {
+ background: #999;
+ border: 1px solid black;
+ margin-top: 4px;
+}
+
+    
+ 

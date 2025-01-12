@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Cozumel 2013</title>
+   	<link>.</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/</jalbum:absolutePath>
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/People/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Eels/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Filefish/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Lobsters/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Other/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Parrotfish/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Rays/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Seahorse/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Splendid Toad Fish/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Turtles/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/What/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/The Hunt/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/C-53 wreck/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Shrimp/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Land/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Rescue Divers/album.rss" />   	
+    	<jalbum:link rel="sub" href="http://362.520.myftpupload.com/Photos/Coba and Yucatan/album.rss" />   	
+        <item>
+            <title>_OLY1861</title>
+            <link>http://362.520.myftpupload.com/Photos/slides/_OLY1861.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/thumbs/_OLY1861.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/slides/_OLY1861.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1861.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2501</title>
+            <link>http://362.520.myftpupload.com/Photos/slides/_OLY2501.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/thumbs/_OLY2501.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/slides/_OLY2501.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2501.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2579</title>
+            <link>http://362.520.myftpupload.com/Photos/slides/_OLY2579.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/thumbs/_OLY2579.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/slides/_OLY2579.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2579.jpg</guid>
+        </item>
+    </channel>
+</rss>

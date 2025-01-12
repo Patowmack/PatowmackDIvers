@@ -1,0 +1,25 @@
+people	mensen
+aunt	tante
+baby	baby
+brother	broer
+cousin (m)	neef 
+cousin (f)	nicht 
+daughter	dochter
+dentist	tandarts
+doctor	dokter
+father	vader
+grandfather	grootvader/opa
+grandmother	grootmoeder/oma
+husband	man
+mother	moeder
+nephew	neefje
+niece	nichtje
+nurse	verpleegkundige
+policeman	politieagent
+postman	postbode
+professor	hoogleraar
+son	zoon
+teacher (m)	leraar 
+teacher (f)	lerares
+uncle	oom
+wife	vrouw

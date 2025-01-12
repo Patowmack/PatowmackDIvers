@@ -1,0 +1,10 @@
+Christian => cristiano
+catholic => católico
+protestant => protestante
+Jewish => judío
+Hindu => hindú
+Muslim => musulmán
+Sikh (m) => sij
+Sikh (f) => sij
+agnostic => el agnóstico
+atheistic => ateo

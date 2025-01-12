@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Eels</title>
+   	<link>..</link>
+        <generator>jAlbum 11</generator>
+   		<description></description>
+        <jalbum:absolutePath>http://362.520.myftpupload.com/Photos/Eels/</jalbum:absolutePath>
+        <item>
+            <title>_OLY1844</title>
+            <link>http://362.520.myftpupload.com/Photos/Eels/slides/_OLY1844.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:13 -0500</pubDate>
+            <description>Eel</description>
+            <media:description type="html">Eel</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Eels/thumbs/_OLY1844.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Eels/slides/_OLY1844.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1844.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY1845</title>
+            <link>http://362.520.myftpupload.com/Photos/Eels/slides/_OLY1845.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:13 -0500</pubDate>
+            <description>Eel</description>
+            <media:description type="html">Eel</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Eels/thumbs/_OLY1845.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Eels/slides/_OLY1845.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/_OLY1845.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2157</title>
+            <link>http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2157.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:13 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Eels/thumbs/_OLY2157.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2157.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2157.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2234</title>
+            <link>http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2234.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:13 -0500</pubDate>
+            <description>Eel</description>
+            <media:description type="html">Eel</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Eels/thumbs/_OLY2234.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2234.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2234.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2247</title>
+            <link>http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2247.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:13 -0500</pubDate>
+            <description>Eel</description>
+            <media:description type="html">Eel</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Eels/thumbs/_OLY2247.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2247.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2247.jpg</guid>
+        </item>
+        <item>
+            <title>_OLY2249</title>
+            <link>http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2249.jpg</link>
+            <pubDate>Sat, 14 Dec 2013 16:02:13 -0500</pubDate>
+            <description>Eel</description>
+            <media:description type="html">Eel</media:description>
+            <media:thumbnail url="http://362.520.myftpupload.com/Photos/Eels/thumbs/_OLY2249.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="http://362.520.myftpupload.com/Photos/Eels/slides/_OLY2249.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/_OLY2249.jpg</guid>
+        </item>
+    </channel>
+</rss>

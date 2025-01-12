@@ -1,0 +1,11 @@
+lesson => la clase
+pupil => el alumno
+boarder => (m) el interno
+boarder => (f) la interna
+bell => una campanilla
+homework => los deberes
+timetable => el horario
+term => un trimestre
+semester => un semestre
+detention => la detención
+study period => una clase de estudio
