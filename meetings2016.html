@@ -1,154 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+      $(function () {
+        var includes = $("[data-include]");
+        $.each(includes, function () {
+          var file = $(this).data("include") + ".html";
+          $(this).load(file);
+        });
+      });
+    </script>
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-<body class="bg-info">
-<!--   <div data-include="body"></div>
+  <body class="bg-info">
+    <!--   <div data-include="body"></div>
 <div data-include="navsite"></div> -->
-  
 
-<div id="content"></div>
+    <div id="content"></div>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
+    <div class="container-fluid">
+      <div class="row mx-4">
+        <h4 class="text-center">2016 Meetings</h4>
 
-<div class="container-fluid">
-<div class="row mx-4">
-  
-<h4 class="text-center">2016 Meetings</h4>
+        <h6>Wednesday, December 7 at 7 pm</h6>
+        Patowmack Divers will have it's annual holiday party at
+        <b>Mylo's Grill 6238 Old Dominion Drive, McLean</b>. You can find their
+        web site at http://www.mylosgrill.com/.
+        <p>
+          There will be a Yankee Swap, so everyone should bring something
+          inexpensive to trade. More details later.
+        </p>
 
-<h6>Wednesday, December 7 at 7 pm</h6>
-Patowmack Divers will have it's annual holiday party at
-<b>Mylo's Grill 6238 Old Dominion Drive, McLean</b>. You can find their web site at http://www.mylosgrill.com/. <p>
-There will be a Yankee Swap, so everyone should bring something inexpensive to trade.  More details later.
+        <h6>Wednesday, November 2, 2016 at 7:30 PM</h6>
+        <i><b>Temporary meeting location:</b></i> Table Talk Restaurant at 1623
+        Duke St, Alexandria, just a couple blocks from the King Street metro
+        station. There is also parking at the restaurant.
+        <a href="http://www.yatestabletalk.com/"
+          >http://www.yatestabletalk.com</a
+        >
+        <p>
+          Andrew Donn will be telling us about his experience diving the U-550
+          and Pan Pennsylvania wrecks. You can find more about these wrecks at
+          <a
+            href="http://www.penguinrandomhouse.com/books/316805/where-divers-dare-by-randall-peffer/9780425276365/"
+          >
+            http://www.penguinrandomhouse.com/books/316805/where-divers-dare-by-randall-peffer/9780425276365/</a
+          >
+        </p>
 
-<h6>Wednesday, November 2, 2016 at 7:30 PM</h6>
-<i><b>Temporary meeting location:</b></i>  Table Talk Restaurant at 1623 Duke St, Alexandria, just a couple blocks from the King Street metro station. There is also parking at the restaurant. <a href="http://www.yatestabletalk.com/">http://www.yatestabletalk.com</a>
-<p>
-Andrew Donn will be telling us about his experience diving the U-550 and Pan Pennsylvania wrecks.  You can find more about these wrecks at <a href="http://www.penguinrandomhouse.com/books/316805/where-divers-dare-by-randall-peffer/9780425276365/">
-http://www.penguinrandomhouse.com/books/316805/where-divers-dare-by-randall-peffer/9780425276365/</a>
-<p>
-We will also discuss the holiday party in December.
+        <p>We will also discuss the holiday party in December.</p>
 
-<h6>Wednesday, October 5, 2016 at 7:30 PM</h6>
-We will meet at <b>Mylo's Grill 6238 Old Dominion Drive, McLean</b>. You can find their web site at
-http://www.mylosgrill.com/. <p>
-Kris, Sarah, and Larry will show pictures from their trip to Jupiter Beach, Florida to see the goliath grouper aggregation and shore dive "under the bridge."
+        <h6>Wednesday, October 5, 2016 at 7:30 PM</h6>
+        We will meet at <b>Mylo's Grill 6238 Old Dominion Drive, McLean</b>. You
+        can find their web site at http://www.mylosgrill.com/.
+        <p>
+          Kris, Sarah, and Larry will show pictures from their trip to Jupiter
+          Beach, Florida to see the goliath grouper aggregation and shore dive
+          "under the bridge."
+        </p>
 
-<h6>Wednesday, February 4, 2015</h6>
-Gloria will show some of her stunning pictures from diving in British Columbia.
-<table class="table">
-    <tr>
-        <td><img src="./images/2016Jupiter/DSCF4160v2.jpg" style="width:100%"></td>
-        <td><img src="./images/2016Jupiter/DSCF4129v2.jpg" style="width:100%"></td>
-        <td><img src="./images/2016Jupiter/DSCF4163v2_1.jpg" style="width:100%"> </td>
-        <td><img src="./images/2016Jupiter/DSCF4186v2_1.jpg" style="width:100%"></td>
-        <td><img src="./images/2016Jupiter/DSCF4198v2_1.jpg" style="width:100%"></td>
-    </tr>
-</table>
+        <h6>Wednesday, February 4, 2015</h6>
+        Gloria will show some of her stunning pictures from diving in British
+        Columbia.
+        <table class="table">
+          <tr>
+            <td>
+              <img
+                src="./images/2016Jupiter/DSCF4160v2.jpg"
+                style="width: 100%"
+              />
+            </td>
+            <td>
+              <img
+                src="./images/2016Jupiter/DSCF4129v2.jpg"
+                style="width: 100%"
+              />
+            </td>
+            <td>
+              <img
+                src="./images/2016Jupiter/DSCF4163v2_1.jpg"
+                style="width: 100%"
+              />
+            </td>
+            <td>
+              <img
+                src="./images/2016Jupiter/DSCF4186v2_1.jpg"
+                style="width: 100%"
+              />
+            </td>
+            <td>
+              <img
+                src="./images/2016Jupiter/DSCF4198v2_1.jpg"
+                style="width: 100%"
+              />
+            </td>
+          </tr>
+        </table>
 
-<h6>Wednesday, September 7, 2016 at 7:30 PM</h6>
-For September we will meet at <b>Old Town Holiday Inn restaurant</b>, 625 First Street, Alexandria, VA.  Click <a href="https://www.google.com/maps/place/Holiday+Inn+Hotel+%26+Suites+Alexandria-Historic+District/@38.8153343,-77.043026,15z/data=!4m5!3m4!1s0x0:0xf39aeb9004cd70c7!8m2!3d38.8153343!4d-77.043026">here</a> for a map.
-<p> Sarah will show some pictures from her dive vacation in St. Croix.  We will discuss past dives and plan future dives.
+        <h6>Wednesday, September 7, 2016 at 7:30 PM</h6>
+        For September we will meet at <b>Old Town Holiday Inn restaurant</b>,
+        625 First Street, Alexandria, VA. Click
+        <a
+          href="https://www.google.com/maps/place/Holiday+Inn+Hotel+%26+Suites+Alexandria-Historic+District/@38.8153343,-77.043026,15z/data=!4m5!3m4!1s0x0:0xf39aeb9004cd70c7!8m2!3d38.8153343!4d-77.043026"
+          >here</a
+        >
+        for a map.
+        <p>
+          Sarah will show some pictures from her dive vacation in St. Croix. We
+          will discuss past dives and plan future dives.
+        </p>
 
-<h6>Wednesday, August 3, 2016</h6>
-We will meet at <b>Mylo's Grill 6238 Old Dominion Drive, McLean</b>. You can find their web site at
-http://www.mylosgrill.com/.  Our previous place (TJ Stone) booked larger group for the room we used.We have a room with a door, so it should be easier to hear each other.
-<p>Our meeting will start at 7:30 PM, but Mylo's has a happy hour 4-7 PM.
-<p>Gloria will be presenting.
+        <h6>Wednesday, August 3, 2016</h6>
+        We will meet at <b>Mylo's Grill 6238 Old Dominion Drive, McLean</b>. You
+        can find their web site at http://www.mylosgrill.com/. Our previous
+        place (TJ Stone) booked larger group for the room we used.We have a room
+        with a door, so it should be easier to hear each other.
+        <p>
+          Our meeting will start at 7:30 PM, but Mylo's has a happy hour 4-7 PM.
+        </p>
+        <p>Gloria will be presenting.</p>
 
-<table class="table">
-    <tr>
-        <td><img src="./images/Gloria/DSC_3717sm.jpeg" style="width:100%"></td>
-        <td><img src="./images/Gloria/DSC_3769sm.jpeg" style="width:100%"></td>
-        <td><img src="./images/Gloria/DSC_4036asm.jpeg" style="width:100%"></td>
-        <td><img src="./images/Gloria/DSC_4038sm.jpeg" style="width:100%"></td>
-    </tr>
-</table>
+        <table class="table">
+          <tr>
+            <td>
+              <img src="./images/Gloria/DSC_3717sm.jpeg" style="width: 100%" />
+            </td>
+            <td>
+              <img src="./images/Gloria/DSC_3769sm.jpeg" style="width: 100%" />
+            </td>
+            <td>
+              <img src="./images/Gloria/DSC_4036asm.jpeg" style="width: 100%" />
+            </td>
+            <td>
+              <img src="./images/Gloria/DSC_4038sm.jpeg" style="width: 100%" />
+            </td>
+          </tr>
+        </table>
 
-<h6>Wednesday, July 6, 7:30 PM</h6>
-Eric, Inia, Larry and Paul will show pictures from their May trip to the Florida Keys.
-<table class="table">
-    <tr align="center">
-        <td align="center"><img src="./images/Keys/_OLY0326.JPG" style="width:50%"></td>
-        <td align="center"><img src="./images/Keys/_OLY0327.JPG" style="width:50%"></td>
-    </tr>
-</table>
+        <h6>Wednesday, July 6, 7:30 PM</h6>
+        Eric, Inia, Larry and Paul will show pictures from their May trip to the
+        Florida Keys.
+        <table class="table">
+          <tr align="center">
+            <td align="center">
+              <img src="./images/Keys/_OLY0326.JPG" style="width: 50%" />
+            </td>
+            <td align="center">
+              <img src="./images/Keys/_OLY0327.JPG" style="width: 50%" />
+            </td>
+          </tr>
+        </table>
 
-<h6>Wednesday, June 1, 7:30 PM</h6>
-Kris, Sarah, and Paul will talk about their trip to Bonaire and Buddy Dive in Febrauary
+        <h6>Wednesday, June 1, 7:30 PM</h6>
+        Kris, Sarah, and Paul will talk about their trip to Bonaire and Buddy
+        Dive in Febrauary
 
-<h6>Wednesday, May 4</h6>
-Eric will show pictures from the trip he took with Big Bruce and Larry to St. Maarten, Saba, and St. Kitts. <p>
-See how two scorpion fish survived a no holds barred death match!
+        <h6>Wednesday, May 4</h6>
+        Eric will show pictures from the trip he took with Big Bruce and Larry
+        to St. Maarten, Saba, and St. Kitts.
+        <p>See how two scorpion fish survived a no holds barred death match!</p>
 
-<h6>Wednesday, April 6</h6>
-Gloria will show a video from her liveaboard off Socorro.  Diving around Socorro is usually done on a liveaboard and has been called the Mexican Gallapagos (of course Cocos Islands have been called the Gallapagos of Central America, and there is only one group of islands known as the Gallapagos).  But Socorro is closer to Washington than the real Gallapagos, so come find out how close Socorro is to the real thing.
-<p>
-Brad will show pictures and talk about his recent dive trip to the Mayan Riviera, better known as the Yucatan in Mexico.  We will also discuss past dive trips (a liveaboard from St. Maarten) and future dive trips (Bonaire, Key West, and others).
+        <h6>Wednesday, April 6</h6>
+        Gloria will show a video from her liveaboard off Socorro. Diving around
+        Socorro is usually done on a liveaboard and has been called the Mexican
+        Gallapagos (of course Cocos Islands have been called the Gallapagos of
+        Central America, and there is only one group of islands known as the
+        Gallapagos). But Socorro is closer to Washington than the real
+        Gallapagos, so come find out how close Socorro is to the real thing.
+        <p>
+          Brad will show pictures and talk about his recent dive trip to the
+          Mayan Riviera, better known as the Yucatan in Mexico. We will also
+          discuss past dive trips (a liveaboard from St. Maarten) and future
+          dive trips (Bonaire, Key West, and others).
+        </p>
 
-<h4>New Meeting Locations in January and February</h4>
+        <h4>New Meeting Locations in January and February</h4>
 
-We're trying to find the perfect location with room, parking, and good, inexpensive food.
-We will still meet the first Wednesday of the month. Both of our trial locations are near where we have met in the past.<p>
-We will have a social half hour starting at 7:00 PM.  This is a chance to talk, order drinks and food, etc.  The meeting will start at 7:30.  Our meetings usually end between 9:00 and 9:30 PM.
+        We're trying to find the perfect location with room, parking, and good,
+        inexpensive food. We will still meet the first Wednesday of the month.
+        Both of our trial locations are near where we have met in the past.
+        <p>
+          We will have a social half hour starting at 7:00 PM. This is a chance
+          to talk, order drinks and food, etc. The meeting will start at 7:30.
+          Our meetings usually end between 9:00 and 9:30 PM.
+        </p>
 
-<h6>Wednesday, February 3, 2016 </h6>
-<table class="table">
-    <tr align="center">
-        <td align="center"><img src="./images/140427 1030DC 576 ARTH ARACHANID Scorpion fluorescent.jpg" style="width:25%"></td>
-        <td align="center"><img src="./images/CN6 Fluorescence 4lights.jpg" style="width:200%"></td>
-    </tr>
-</table>
+        <h6>Wednesday, February 3, 2016</h6>
+        <table class="table">
+          <tr align="center">
+            <td align="center">
+              <img
+                src="./images/140427 1030DC 576 ARTH ARACHANID Scorpion fluorescent.jpg"
+                style="width: 25%"
+              />
+            </td>
+            <td align="center">
+              <img
+                src="./images/CN6 Fluorescence 4lights.jpg"
+                style="width: 200%"
+              />
+            </td>
+          </tr>
+        </table>
 
-<h4>January 6, 2016</h4> will be at Royal Thai, 801 N. Fairfax, Alexandria.  For menu and other details <a href=http://www.royalthaisushi.com/>
-http://www.royalthaisushi.com/</a> Gloria will show some of her pictures from Fiji.
+        <h4>January 6, 2016</h4>
+        will be at Royal Thai, 801 N. Fairfax, Alexandria. For menu and other
+        details
+        <a href="http://www.royalthaisushi.com">
+          http://www.royalthaisushi.com/</a
+        >
+        Gloria will show some of her pictures from Fiji. Hermione and Blue Heron
+        Bridge--TBA This gathering of the Patowmack Divers, is a two-fer. Check
+        out images of the Hermione (reconstruction of an 18th century French
+        naval vessel that sailed to the US this summer from France) and hear
+        about what the diving has been like at the Blue Heron Bridge of late.
+      </div>
+    </div>
+    <div class="container" style="height: 50px">
+      <img src="./images/_DSC4449.jpg" class="h-50 w-100" alt="..." />
+    </div>
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
+    </p>
 
- Hermione and Blue Heron Bridge--TBA This gathering of the Patowmack Divers, is a two-fer. Check out images of the Hermione (reconstruction of an 18th century French naval vessel that sailed to the US this summer from France) and hear about what the diving has been like at the Blue Heron Bridge of late.
+    <p class="text-center">
+      Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.
+    </p>
 
-   <div class="container" style="height: 50px"><img src="./images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="./images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
-
-   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-

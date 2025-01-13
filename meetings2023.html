@@ -1,127 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
+  <body class="bg-info">
+    <div id="content"></div>
 
-<body class="bg-info">
-<!--   <div data-include="body"></div>
-<div data-include="navsite"></div> -->
-  
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
-<div id="content"></div>
+    <div class="container-fluid">
+      <div class="row mx-4 my-4">
+        <h4 class="text-center">2023 Meetings</h4>
+        <p>
+          Patowmack Divers meets the first Monday of the month, unless it's a
+          federal holiday. We are now holding hybrid meetings giving divers the
+          option of joining us in person at
+          <a href="https://www.mylosgrill.com/">Mylo's Grill</a> (6238 Old
+          Dominion Dr., McLean, VA 22101) or on Zoom We a social half hour
+          starting at 7:00 pm. This is a chance to talk, order drinks and food,
+          etc. The meeting starts with club business at 7:30. Our meetings
+          usually end between 9:00 and 9:30 pm.
+        </p>
+        <p>
+          <b
+            >Many members will be out of town for a long July 4 holiday, so we
+            will meet on July 10.</b
+          >
+        </p>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+        <h6 class="p5"><strong>Monday, January 8, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Following club business, Kris will show some pictures from Hawaii
+            and Eric will talk about how the bends and caisson disease became
+            understood."
+          </p>
+        </div>
 
+        <h6 class="p5"><strong>Monday, November 6, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Following club business, Paul will present "Defending the Delaware
+            Bay."
+          </p>
+        </div>
 
-<div class="container-fluid">
-<div class="row mx-4 my-4">
-  
-<h4 class="text-center">2023 Meetings</h4>
-<p>Patowmack Divers meets the first Monday of the month, unless it's a federal holiday. We are now holding hybrid meetings giving divers the option of joining us in person at <a href="https://www.mylosgrill.com/">Mylo's Grill</a> (6238 Old Dominion Dr., McLean, VA 22101) or on Zoom We a social half hour starting at 7:00 pm. This is a chance to talk, order drinks and food, etc. The meeting starts with club business at 7:30. Our meetings usually end between 9:00 and 9:30 pm.</p>
-<p><b>Many members will be out of town for a long July 4 holiday, so we will meet on July 10.</b></p>
+        <h6 class="p5"><strong>Monday, October 2, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>Following club business, we will enjoy a presentation.</p>
+        </div>
 
-<h6 class="p5"><strong>Monday, January 8, 2024</strong></h6>
-<div class="container-fluid">
-    <p>Following club business, Kris will show some pictures from Hawaii and Eric will talk about how the bends and caisson disease became understood."</p>
-</div>
+        <h6 class="p5"><strong>Monday, September 11, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Following club business, we will enjoy a presentation organized by
+            Kris of some videography around the bridges, piers and wrecks of
+            southeast Florida.
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, November 6, 2023</strong></h6>
-<div class="container-fluid">
-    <p>Following club business, Paul will present "Defending the Delaware Bay."</p>
-</div>
+        <h6 class="p5"><strong>Monday, August 7, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Following club business, we will enjoy a presentation from Jim
+            Christenson, who will do present on his recent trip to the Red Sea.
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, October 2, 2023</strong></h6>
-<div class="container-fluid">
-    <p>Following club business, we will enjoy a presentation. </p>
-</div>
+        <h6 class="p5"><strong>Monday, July 10, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Jeff will show off his full face mask and discuss the advantages of
+            it. Does it really eliminate mask squeeze, dry mouth and jaw
+            fatigue?
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, September 11, 2023</strong></h6>
-<div class="container-fluid">
-    <p>Following club business, we will enjoy a presentation organized by Kris of some videography around the bridges, piers and wrecks of southeast Florida. </p>
-</div>
+        <h6 class="p5"><strong>Monday, June 5, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Paul will present pictures and discuss his trip to Antartica. Why
+            did he have to postpone his trip a year? Join us to find out.
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, August 7, 2023</strong></h6>
-<div class="container-fluid">
-    <p> Following club business, we will enjoy a presentation from Jim Christenson, who will do present on his recent trip to the Red Sea. </p>
-</div>
+        <h6 class="p5"><strong>Monday, May 1, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            We will have a special guest at the May 1st dive club meeting. We
+            will have a presentation on COVID and SCUBA by Dr. Kelly
+            Johnson-Arbor. Dr. Johnson-Arbor is a physician who is triple
+            board-certified in Emergency Medicine, Medical Toxicology, and
+            Undersea and Hyperbaric Medicine
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, July 10, 2023</strong></h6>
-<div class="container-fluid">
-    <p>Jeff will show off his full face mask and discuss the advantages of it. Does it really eliminate mask squeeze, dry mouth and jaw fatigue?</p>
-</div>
+        <h6 class="p5"><strong>Monday, April 3, 2023</strong></h6>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Jim will show some video from recent trips to Belize and the
+                Philippines
+              </p>
+            </div>
+          </div>
+        </div>
 
-<h6 class="p5"><strong>Monday, June 5, 2023</strong></h6>
-<div class="container-fluid">
-    <p>Paul will present pictures and discuss his trip to Antartica. Why did he have to postpone his trip a year? Join us to find out.</p>
-</div>
+        <h6 class="p5"><strong>Monday, March 6, 2023</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Following club business, we will have a presentation by Diane on her
+            recent transatlantic crossing on the Queen Mary 2. We will also have
+            a brief video-based biology lesson.
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, May 1, 2023</strong></h6>
-<div class="container-fluid">
-<p>We will have a special guest at the May 1st dive club meeting. We will have a presentation on COVID and SCUBA by Dr. Kelly Johnson-Arbor. Dr. Johnson-Arbor is a physician who is triple board-certified in Emergency Medicine, Medical Toxicology, and Undersea and Hyperbaric Medicine</p>
-</div>
+        <h6 class="p5"><strong>Monday, February 6, 2023</strong></h6>
+        <p>
+          Following club business, we will have a presentation by Anne on her
+          recent dive trip to the Bahamas.
+        </p>
 
-<h6 class="p5"><strong>Monday, April 3, 2023</strong></h6>
-<div class="container-fluid">
-    <div class="row">
-    <div class="col-md-6">
-<p>Jim will show some video from recent trips to Belize and the Philippines </p>
+        <h6 class="p5"><strong>Monday, January 9, 2023</strong></h6>
+        <p>
+          Because New Year's is being celebrated on January 2, we will meet on
+          the second Monday of the month.
+        </p>
+        <p>
+          Following club business, we will enjoy a presentation from Diane about
+          her recent Transatlantic crossing on the Queen Mary 2. This will be
+          followed by another brief video-based bio-lesson.
+        </p>
+      </div>
     </div>
-  </div>
-</div>
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
+    </p>
 
-<h6 class="p5"><strong>Monday, March 6, 2023</strong></h6>
-<div class="container-fluid">
-        <p>Following club business, we will have a presentation by Diane on her recent transatlantic crossing on the Queen Mary 2. We will also have a brief video-based biology lesson. </p>
-</div>
+    <p class="text-center">
+      Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.
+    </p>
 
-<h6 class="p5"><strong>Monday, February 6, 2023</strong></h6>
-<p>Following club business, we will have a presentation by Anne on her recent dive trip to the Bahamas.</p>
-
-<h6 class="p5"><strong>Monday, January 9, 2023</strong></h6>
-<p>Because New Year's is being celebrated on January 2, we will meet on the second Monday of the month.</p>
-<p>Following club business, we will enjoy a presentation from Diane about her recent Transatlantic crossing on the Queen Mary 2. This will be followed by another brief video-based bio-lesson.</p>
-
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="./images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
-
-   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-

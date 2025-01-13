@@ -1,91 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+      $(function () {
+        var includes = $("[data-include]");
+        $.each(includes, function () {
+          var file = $(this).data("include") + ".html";
+          $(this).load(file);
+        });
+      });
+    </script>
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-<body class="bg-info">
-<!--   <div data-include="body"></div>
+  <body class="bg-info">
+    <!--   <div data-include="body"></div>
 <div data-include="navsite"></div> -->
 
-<div id="content"></div>
+    <div id="content"></div>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
+    <div class="container-fluid">
+      <div class="row mx-4">
+        <h4 class="text-center">2014 Meetings</h4>
 
-  
-<div class="container-fluid">
-<div class="row mx-4">
-  
-<h4 class="text-center">2014 Meetings</h4>
+        <h6>Thursday, December 11, 2014</h6>
+        <p>Brian Skerry at National Geographic</p>
 
-  <h6>Thursday, December 11, 2014</h6>
-  <p>Brian Skerry at National Geographic</p>
+        <h6>Wednesday, October 1, 2014</h6>
+        If you've ever wondered about crab body guards and why you might want to
+        wear one, come to our meeting
+        <ul>
+          <li>Learn about goliath groupers and see a few pictures</li>
+          <li>And hear about portable scrapbooks...money and war</li>
+          <li>
+            And just talk about our next dive trips...or our last dive
+            trips...or where we want to go diving next weekend.
+          </li>
+        </ul>
 
-  <h6>Wednesday, October 1, 2014</h6>
-  If you've ever wondered about crab body guards and why you might want to wear one, come to our meeting
-  <ul>
-  <li>Learn about goliath groupers and see a few pictures</li>
-  <li>And hear about portable scrapbooks...money and war</li>
-  <li>And just talk about our next dive trips...or our last dive trips...or where we want to go diving next weekend.  </li>
-  </ul>
+        <h6>Wednesday, August 13, 2014</h6>
+        <p>
+          YES, WE'RE MEETING ON THE SECOND WEDNESDAY! We will have a special
+          presentation form Amir Fogel.
+        </p>
+        <p>
+          Amir Fogel is a graduate of Hampshire College in Amherst, MA. There he
+          studied marine biology, with a focus in shark behavior and
+          conservation, and documentary film. Amir has spent time volunteering
+          in the Sian Ka'an Biosphere Reserve near Tulum, Mexico as well as a
+          volunteer diver at the Maritime Aquarium of Norwalk in CT. In
+          addition, he is a PADI certified Dive Master and has just returned
+          from working at a dive shop in Zihuatanejo, Mexico. His documentary,
+          Niche, explores the many intricacies of current shark conservation
+          measures. The film is a compilation of personal footage, stock
+          footage, and interviews with professionals from many backgrounds.
+          Niche is intended to first establish the importance of sharks to the
+          survival of marine ecosystems, followed by a unique glance into the
+          complexities of the challenges in current shark conservation measures.
+          What sets, Niche, apart from other shark conservation films is the
+          representation of diverse perspectives. Bringing the voices of
+          commercial fishermen, scientists, and conservationists all to the
+          table, in order to discuss the future of shark conservation.
+        </p>
 
-  <h6>Wednesday, August 13, 2014</h6>
-  <p>YES, WE'RE MEETING ON THE SECOND WEDNESDAY! We will have a special presentation form Amir Fogel.<p>
-  Amir Fogel is a graduate of Hampshire College in Amherst, MA. There he studied marine biology, with a focus in shark behavior and conservation, and documentary film. Amir has spent time volunteering in the Sian Ka'an Biosphere Reserve near Tulum, Mexico as well as a volunteer diver at the Maritime Aquarium of Norwalk in CT. In addition, he is a PADI certified Dive Master and has just returned from working at a dive shop in Zihuatanejo, Mexico.  His documentary, Niche, explores the many intricacies of current shark conservation measures. The film is a compilation of personal footage, stock footage, and interviews with professionals from many backgrounds. Niche is intended to first establish the importance of sharks to the survival of marine ecosystems, followed by a unique glance into the complexities of the challenges in current shark conservation measures. What sets, Niche, apart from other shark conservation films is the representation of diverse perspectives. Bringing the voices of commercial fishermen, scientists, and conservationists all to the table, in order to discuss the future of shark conservation.
+        <h6>Wednesday, June 4, 2014</h6>
+        <p>
+          We will meet at National Geographic to see their exhibit
+          <i>Coral, Fire, and Ice</i> We will meet before the show for dinner
+          and drinks. Exact time and location TBD. This replaces the regular
+          June meeting.
+        </p>
 
-  <h6>Wednesday, June 4, 2014</h6>
-  <p>We will meet at National Geographic to see their exhibit <i>Coral, Fire, and Ice</i> We will meet before the show for dinner and drinks. Exact time and location TBD.  This replaces the regular June meeting.
+        <h6>June 2014</h6>
+        <p>
+          One weekend in June we will visit the nautical museum at the Navy
+          Yard. Details are being worked out.
+        </p>
 
-  <h6>June 2014</h6>
-  <p>One weekend in June we will visit the nautical museum at the Navy Yard.  Details are being worked out.
+        <h6>Wednesday, March 5, 2014</h6>
+        <p>
+          Michael Weiss will share his experiences and pictures of diving the
+          Bahamas from a live aboard. Mike is an accomplished photographer whose
+          pictures can be sampled at
+          <a href="http://www.underwatervisuals.com"
+            >http://www.underwatervisuals.com</a
+          >
+        </p>
 
-  <h6>Wednesday, March 5, 2014</h6>
-  <p>Michael Weiss will share his experiences and pictures of diving the Bahamas from a live aboard.  Mike is an accomplished photographer whose pictures can be sampled at <a href=http://www.underwatervisuals.com>http://www.underwatervisuals.com</a>
+        <h6>Wednesday, February 5, 2014</h6>
+        <p>
+          Club member Ed Bullinger will talk about diving and underwater
+          photography using one of his favorite dive sites: under the Blue Heron
+          Bridge in West Palm Beach. The bridge is a really great shore dive and
+          several club members go down to West Palm Beach once or twice a year
+          to dive it. Of course, there's also great boat diving off West Palm.
+          Ed was a professional photographer in the West Palm Beach area.
+        </p>
+      </div>
+    </div>
 
-  <h6>Wednesday, February 5, 2014</h6>
-  <p>Club member Ed Bullinger will talk about diving and underwater photography using one of his favorite dive sites:  under the Blue Heron Bridge in West Palm Beach.  The bridge is a really great shore dive and several club members go down to West Palm Beach once or twice a year to dive it.  Of course, there's also great boat diving off West Palm.  Ed was a professional photographer in the West Palm Beach area.
-   <div class="container" style="height: 50px"><img src="./images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="./images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
+    <div class="container" style="height: 50px">
+      <img src="./images/_DSC4449.jpg" class="h-50 w-100" alt="..." />
+    </div>
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
+    </p>
 
-   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
+    <p class="text-center">
+      Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.
+    </p>
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-

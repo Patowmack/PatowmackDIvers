@@ -1,133 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+      $(function () {
+        var includes = $("[data-include]");
+        $.each(includes, function () {
+          var file = $(this).data("include") + ".html";
+          $(this).load(file);
+        });
+      });
+    </script>
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-<body class="bg-info">
-<!--   <div data-include="body"></div>
+  <body class="bg-info">
+    <!--   <div data-include="body"></div>
 <div data-include="navsite"></div> -->
-  
 
-<div id="content"></div>
+    <div id="content"></div>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
+    <div class="container-fluid">
+      <div class="row mx-4">
+        <h4 class="text-center">2017 Meetings</h4>
+        <h6>Wednesday, January 3 at 7:30 pm</h6>
+        <p>
+          Our meeting will be at Mylo's (see below for directions). Kris, Sarah,
+          Buddy, Gloria and Eric will talk about their dive trip to Jupiter, FL
+          after the hurricanes nd show pictures
+        </p>
 
-<div class="container-fluid">
-<div class="row mx-4">
-  
+        <h6>Wednesday, December 6 at 7:30 pm</h6>
+        <p>
+          This will be our annual holiday party. Contact the club for details
+        </p>
 
-<h4 class="text-center">2017 Meetings</h4>
-<h6>Wednesday, January 3 at 7:30 pm</h6>
-<p>Our meeting will be at Mylo's (see below for directions).  Kris, Sarah, Buddy, Gloria and Eric will talk about their dive trip to Jupiter, FL after the hurricanes nd show pictures</p>
+        <h6>Wednesday, November 1 at 7:30 pm</h6>
+        <p>
+          Our November meeting will be at Mylo's (see below for directions).
+          Inia will talk about her dive trip to Bonaire and show pictures
+        </p>
+        <table class="table">
+          <tr>
+            <td>
+              <img
+                src="./images/2017Bonaire/Eagle Rays _ Curacao+Bonaire 2017.jpg"
+                width="75%"
+              />
+            </td>
+            <td>
+              <img
+                src="./images/2017Bonaire/Sea Slug, Lettuce _ Curacao+Bonaire 2017.JPG"
+                width="75%"
+              />
+            </td>
+            <td>
+              <img
+                src="./images/2017Bonaire/Urchin, Long-Spined White _ Curacao+Bonaire 2017.JPG"
+                width="25%"
+              />
+            </td>
+          </tr>
+        </table>
 
-<h6>Wednesday, December 6 at 7:30 pm</h6>
-<p>This will be our annual holiday party. Contact the club for details</p>
+        <h6>Wednesday, September 6 at 7:30 pm</h6>
+        <p>
+          Our September meeting will be at Mylo's (see below for directions).
+          Inia, Larry, Bruce, Eric, and Paul will present non-diving pictures
+          from their trip to Indonesia. We took a tour of Jakarta and met some
+          very nice people. We even provided impromptu English lessons for high
+          school students. We toured Sorong, where our boat left from, and the
+          legendary Bali.
+        </p>
+        <table class="table">
+          <tr>
+            <td><img src="./images/2017/09/_OLY3494.jpg" width="75%" /></td>
+            <td><img src="./images/2017/09/_OLY3606.jpg" width="75%" /></td>
+            <td><img src="./images/2017/09/_RAW2905.jpg" width="75%" /></td>
+            <td><img src="./images/2017/09/_RAW3175.jpg" width="75%" /></td>
+          </tr>
+        </table>
 
-<h6>Wednesday, November 1 at 7:30 pm</h6>
-<p>Our November meeting will be at Mylo's (see below for directions).  Inia will talk about her dive trip to Bonaire and show pictures</p>
-<table class="table">
-  <tr>
-      <td><img src="./images/2017Bonaire/Eagle Rays _ Curacao+Bonaire 2017.jpg" width = 75%></td>
-      <td><img src="./images/2017Bonaire/Sea Slug, Lettuce _ Curacao+Bonaire 2017.JPG" width = 75%></td>
-      <td><img src="./images/2017Bonaire/Urchin, Long-Spined White _ Curacao+Bonaire 2017.JPG"   width = 25%></td>
-  </tr>
-</table>
+        <h6>Wednesday, August 3 at 7:30 pm</h6>
+        Our August meeting will August 2 at Mylo's. Inia, Larry, Bruce, and Paul
+        will present pictures from their dive trip to Raja Ampat, Indonesia. The
+        diving was awesome. Watch for the giant manta rays.
 
-<h6>Wednesday, September 6 at 7:30 pm</h6>
-<p>Our September meeting will be at Mylo's (see below for directions).  Inia, Larry, Bruce, Eric, and Paul will present non-diving pictures from their trip to Indonesia.  We took a tour of Jakarta and met some very nice people.  We even provided impromptu English lessons for high school students.  We toured Sorong, where our boat left from, and the legendary Bali.</p>
-<table class="table">
-  <tr>
-      <td><img src="./images/2017/09/_OLY3494.jpg" width= 75%></td>
-      <td><img src="./images/2017/09/_OLY3606.jpg" width= 75%></td>
-      <td><img src="./images/2017/09/_RAW2905.jpg" width= 75%></td>
-      <td><img src="./images/2017/09/_RAW3175.jpg" width= 75%></td>
-  </tr>
-</table>
+        <table>
+          <td><img src="./images/2017RajaAmpat/_OLY2808.jpg" width="50%" /></td>
+          <td><img src="./images/2017RajaAmpat/_OLY2819.jpg" width="50%" /></td>
+        </table>
 
-<h6>Wednesday, August 3 at 7:30 pm</h6>
-Our August meeting will August 2 at Mylo's.  Inia, Larry, Bruce, and Paul will present pictures from their dive trip to Raja Ampat, Indonesia.  The diving was awesome.  Watch for the giant manta rays.
+        <h6>Wednesday, July 12 at 7:30 pm</h6>
+        We will meet at Mylo's one week late because of the July 4th holiday and
+        lots of divers going out of town. Andrew will present a report on one of
+        his techincal dives.
 
-<table>
-    <td><img src="./images/2017RajaAmpat/_OLY2808.jpg" width=50%></td>
-    <td><img src="./images/2017RajaAmpat/_OLY2819.jpg" width=50%></td>
-</table>
+        <h6>Wednesday, June 7 at 7:30 pm</h6>
+        We met and saw Manatee pictures from a trip to Florida by Gloria, Kris,
+        Sarah, Andres, Kate, and Eric.
 
-<h6>Wednesday, July 12 at 7:30 pm</h6>
-We will meet at Mylo's one week late because of the July 4th holiday and lots of divers going out of town.  Andrew will present a report  on one of his techincal dives. 
+        <h6>Wednesday, May 3 at 7:30 pm</h6>
+        We will hear from Johanna Polsenberg who is the Director of the Ocean
+        Health Index at Conservation International. Johanna has more than 20
+        years of experience on international and ocean issues. She has worked
+        with domestic and international non-governmental organizations, the U.S.
+        Congress, academia, national governments and the private sector. She has
+        managed large projects in Africa, Australia, Indonesia, the South
+        Pacific, the Caribbean and the United States.
+        <a href="http://www.oceanhealthindex.org/news/Welcome_New_Director"
+          >More about Johanna</a
+        >
 
-<h6>Wednesday, June 7 at 7:30 pm</h6>
-We met and saw Manatee pictures from a trip to Florida by Gloria, Kris, Sarah, Andres, Kate, and Eric.
+        <h6>Wednesday, March 1 at 7:30 pm</h6>
+        <p>
+          The Bird’s Head Seascape of West Papua is not only the epicenter of
+          marine biodiversity, it also appears to function as a “species
+          factory”, on this talk We going to examine why Raja Ampat is consider
+          among the best of best dive sites in the planet, We also will be
+          immerse on a VR experience that transports you to the heart of Raja
+          Ampat, Indonesia without having to travel. Never before has a
+          conservation organization told the story of our oceans and coral reefs
+          through and underwater VR film. Thanks to state-of-the-art VR
+          technology, you’ll find yourself submerged in impossibly blue ocean
+          waters, surrounded by coral reefs teeming with manta rays, sharks and
+          hundreds of fish species. You will also see the impact of destructive
+          fishing and poaching and hear personal stories of how it threatened to
+          plunge ta local population into poverty.
+        </p>
 
-<h6>Wednesday, May 3 at 7:30 pm</h6>
-We will hear from Johanna Polsenberg who is the Director of the Ocean Health Index at Conservation International. Johanna has more than 20 years of experience on international and ocean issues. She has worked with domestic and international non-governmental organizations, the U.S. Congress, academia, national governments and the private sector. She has managed large projects in Africa, Australia, Indonesia, the South Pacific, the Caribbean and the United States.
-<a href=http://www.oceanhealthindex.org/news/Welcome_New_Director>More about Johanna</a>
- 
-<h6>Wednesday, March 1 at 7:30 pm</h6>
-<p>The Bird’s Head Seascape of West Papua is not only the epicenter of marine biodiversity, it also appears to function as a “species factory”, on this talk We going to examine why Raja Ampat is consider among the best of best dive sites in the planet, We also will be immerse on a VR experience that transports you to the heart of Raja Ampat, Indonesia without having to travel. Never before has a conservation organization told the story of our oceans and coral reefs through and underwater VR film. Thanks to state-of-the-art VR technology, you’ll find yourself submerged in impossibly blue ocean waters, surrounded by coral reefs teeming with manta rays, sharks and hundreds of fish species. You will also see the impact of destructive fishing and poaching and hear personal stories of how it threatened to plunge ta local population into poverty.</p>
+        <p>
+          Across the planet, CI protects nature for the benefit of people. Our
+          passionate supporters have long felt an affinity for towering forests,
+          mysterious oceans and exotic wildlife. Though the beauty of nature for
+          many is often many thousands of miles away, because we love nature, we
+          make the decision to protect it despite its distance.
+        </p>
 
-<p>Across the planet, CI protects nature for the benefit of people. Our passionate supporters have long felt an affinity for towering forests, mysterious oceans and exotic wildlife. Though the beauty of nature for many is often many thousands of miles away, because we love nature, we make the decision to protect it despite its distance.</p>
+        <table>
+          <tr>
+            <td>
+              <img src="./images/CI/ci_88392647 copy.jpg" width="300px" />
+            </td>
+            <td>
+              <img src="./images/CI/RA2015 II 067 copy.jpg" width="300px" />
+            </td>
+          </tr>
+        </table>
 
-<table>
-    <tr>
-        <td><img src="./images/CI/ci_88392647 copy.jpg" width=300px></td>
-        <td><img src="./images/CI/RA2015 II 067 copy.jpg" width=300px></td>
-    </tr>
-</table>
+        <h6>Wednesday, January 4 at 7:30 pm</h6>
+        <p>
+          Gloria will show some pictures of a safari that she took in South
+          Africa. OK, it's not diving, but the animals and pictures are pretty
+          amazing.
+        </p>
 
-<h6>Wednesday, January 4 at 7:30 pm</h6>
-<p>Gloria will show some pictures of a safari that she took in South Africa.  OK, it's not diving, but the animals and pictures are pretty amazing.</p>
+        <table>
+          <tr>
+            <td>
+              <img src="./images/Gloria/_DSC3549sm.jpg" style="width: 200px" />
+            </td>
+            <td>
+              <img src="./images/Gloria/DSC_4619asm.jpg" style="width: 200px" />
+            </td>
+            <td>
+              <img src="./images/Gloria/DSC_5368sm.jpg" style="width: 200px" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="container" style="height: 50px">
+      <img src="./images/_DSC4449.jpg" class="h-50 w-100" alt="..." />
+    </div>
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
+    </p>
 
-<table>
-    <tr>
-        <td><img src=./images/Gloria/_DSC3549sm.jpg style="width:200px"></td>
-        <td><img src=./images/Gloria/DSC_4619asm.jpg style="width:200px"></td>
-        <td><img src=./images/Gloria/DSC_5368sm.jpg style="width:200px"></td>
-    </tr>
-</table>
+    <p class="text-center">
+      Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.
+    </p>
 
-   <div class="container" style="height: 50px"><img src="./images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="./images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
-
-   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-

@@ -97,7 +97,7 @@ Yes, you can create a web page with 2 columns of different sizes using Bootstrap
 </div>
 ```
 
-2. Create two columns with different sizes using the col-* classes:
+2. Create two columns with different sizes using the col-* classs:
 
 ```html
 <div class="container">

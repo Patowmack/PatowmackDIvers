@@ -1,142 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
-
-<body class="bg-info">
-<!--   <div data-include="body"></div>
+  <body class="bg-info">
+    <!--   <div data-include="body"></div>
 <div data-include="navsite"></div> -->
-  
 
-<div id="content"></div>
+    <div id="content"></div>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
+    <div class="container-fluid">
+      <div class="row mx-4 my-4">
+        <h4 class="text-center">2024 Meetings</h4>
 
-<div class="container-fluid">
-<div class="row mx-4 my-4">
-  
-<h4 class="text-center">2024 Meetings</h4>
+        <h6 class="p5"><strong>Monday, December 2, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            The annual club party at Mylo's is December 2. Check your email for
+            details.
+          </p>
+        </div>
 
-<h6 class="p5"><strong>Monday, December 2, 2024</strong></h6>
-<div class="container-fluid">
-    <p>   
-    The annual club party at Mylo's is December 2. Check your email for details. 
+        <h6 class="p5"><strong>Monday, November 4, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Paul McIlvaine on his recent experience on the Atlantis Submarine.
+          </p>
+        </div>
+
+        <h6 class="p5"><strong>Monday, October 7, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Kris will show an curated YouTube videos taking us over and under
+            the water, including: Drone videos by Paul Dabill
+            https://www.youtube.com/@PaulDabill and Deerfield Beach Pier Fish
+            Recaps
+          </p>
+        </div>
+
+        <h6 class="p5"><strong>Wednesday, September 11, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            After club business, club member Jim Christenson will talk about his
+            experiences diving the Cocos Islands and share his video footage of
+            the diving there.
+          </p>
+        </div>
+
+        <h6 class="p5"><strong>Monday, August 5, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            After club business, we will have a discussion with Kelly
+            Johnson-Arbor who visited us last year to talk about decompression
+            sickness and COVID. This time she will tell us about the things we
+            should be watchful for in our fellow divers that might indicate
+            decompression sickness.
+          </p>
+        </div>
+        <h6 class="p5"><strong>Monday, July 1, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            After club business, our main feature will be presented by Gloria
+            and Eric about their trip to Grand Turk.
+          </p>
+        </div>
+        <h6 class="p5"><strong>Monday, June 3, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Our main feature will be presented by Ed about the Blue Heron Bridge
+            in Riviera Beach, FL and is entitled “The bridge, sunny 80+, warm
+            water 80+, 20'+ milky visibility makes for a perfect early May dive
+            trip.”
+          </p>
+        </div>
+
+        <h6 class="p5"><strong>Monday, May 6, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Rhonda will present “Rhonda’s Most Excellent Adventures - Antarctica
+            and South America”.
+          </p>
+        </div>
+        <h6 class="p5"><strong>Monday, April 1, 202r </strong></h6>
+        <div class="container-fluid">
+          <p>
+            After club business, there will be presentations from those of us
+            who went to Cozumel, MX in February.
+          </p>
+        </div>
+        <h6 class="p5"><strong>Monday, March 4, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            After club business, I will present a few photos (some land and some
+            underwater) from my trip to Hawai’i last October.
+          </p>
+        </div>
+        <h6 class="p5"><strong>Monday, February 5, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Erik Petkovic will talk at about the U-1105, which is sunk in the
+            Potomac. His talk will start at
+            <b>8:15 pm following club business.</b>
+          </p>
+          <p>
+            U-1105 is a modified Type VII-C German submarine built at the
+            Nordseewerke Shipyard in Emden, Germany, and was commissioned in the
+            Kriegsmarine. Nicknamed "Black Panther", U-1105 was one of only 13
+            submarines outfitted with an experimental rubber skin known as
+            Alberich. The skin was designed to evade Allied sonar - an early
+            stealth technology.
+          </p>
+          <p>
+            During U-1105's only war patrol, she torpedoed the British frigate
+            HMS Redmill killing 32 crewmen.
+          </p>
+          <p>
+            U-1105 surrendered at Loch Eriboll, Scotland at the end of World War
+            Two and was a sought-after war prize for study of its unique rubber
+            skin. After radar, snorkel, and noise trials by the British Royal
+            Navy, U- 1105 was transferred to the US Navy which used U-1105 for
+            explosive testing.
+          </p>
+
+          <p>
+            A 250-pound depth charge sent U-1105 to the bottom of the Potomac
+            River in 1949 for the sixth and final time. U-1105 remained lost to
+            history until she was re-discovered in 1985 in 91 feet (27.7 meters)
+            of water. U-1105 is the most accessible U-boat off the US East
+            Coast.
+          </p>
+        </div>
+
+        <h6 class="p5"><strong>Monday, January 8, 2024</strong></h6>
+        <div class="container-fluid">
+          <p>
+            Following club business, Kris will show some pictures from Hawaii
+            and Eric will talk about how the bends and caisson disease became
+            understood."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
     </p>
-</div>
 
-<h6 class="p5"><strong>Monday, November 4, 2024</strong></h6>
-<div class="container-fluid">
-    <p>   
-    Paul McIlvaine on his recent experience on the Atlantis Submarine.
+    <p class="text-center">
+      Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.
     </p>
-</div>
 
-
-
-<h6 class="p5"><strong>Monday, October 7, 2024</strong></h6>
-<div class="container-fluid">
-    <p>   
-    Kris will show an curated YouTube videos taking us over and under the water, including: Drone videos by Paul Dabill https://www.youtube.com/@PaulDabill and Deerfield Beach Pier Fish Recaps 
-    </p>
-</div>
-
-
-<h6 class="p5"><strong>Wednesday, September 11, 2024</strong></h6>
-<div class="container-fluid">
-    <p>    After club business, club member Jim Christenson will talk about his experiences diving the Cocos Islands and share his video footage of the diving there.
-</div>
-
-<h6 class="p5"><strong>Monday, August 5, 2024</strong></h6>
-<div class="container-fluid">
-    <p>After club business, we will have a discussion with Kelly Johnson-Arbor who visited us last year to talk about decompression sickness and COVID. This time she will tell us about the things we should be watchful for in our fellow divers that might indicate decompression sickness. 
-</div>
-<h6 class="p5"><strong>Monday, July 1, 2024</strong></h6>
-<div class="container-fluid">
-    <p>After club business, our main feature will be presented by Gloria and Eric about their trip to Grand Turk. 
-</div>
-<h6 class="p5"><strong>Monday, June 3, 2024</strong></h6>
-<div class="container-fluid">
-    <p>Our main feature will be presented by Ed about the Blue Heron Bridge in Riviera Beach, FL and is entitled “The bridge, sunny 80+, warm water 80+, 20'+ milky visibility makes for a perfect early May dive trip.”
-</div>
-
-<h6 class="p5"><strong>Monday, May 6, 2024</strong></h6>
-<div class="container-fluid">
-    <p>Rhonda will present “Rhonda’s Most Excellent Adventures - Antarctica and South America”.
-</div>
-<h6 class="p5"><strong>Monday, April 1, 202r </strong></h6>
-<div class="container-fluid">
-    <p>After club business, there will be presentations from those of us who went to Cozumel, MX in February. 
-</div>
-<h6 class="p5"><strong>Monday, March 4, 2024</strong></h6>
-<div class="container-fluid">
-    <p>After club business, I will present a few photos (some land and some underwater) from my trip to Hawai’i last October. 
-</div>
-<h6 class="p5"><strong>Monday, February 5, 2024</strong></h6>
-<div class="container-fluid">
-    <p>Erik Petkovic will talk at about the U-1105, which is sunk in the Potomac. His talk will start at <b>8:15 pm following club business.</b>
-    <p>U-1105 is a modified Type VII-C German submarine built at the Nordseewerke Shipyard in Emden, Germany, and was commissioned in the Kriegsmarine. Nicknamed "Black Panther", U-1105 was one of only 13 submarines outfitted with an experimental rubber skin known as Alberich. The skin was designed to evade Allied sonar - an early stealth technology. 
-<p>During U-1105's only war patrol, she torpedoed the British frigate HMS Redmill killing 32 crewmen. 
-<p>U-1105 surrendered at Loch Eriboll, Scotland at the end of World War Two and was a sought-after
-war prize for study of its unique rubber skin. After radar, snorkel, and noise trials by the British Royal Navy, U- 1105 was transferred to the US Navy which used U-1105 for explosive testing. 
-<p>A 250-pound depth charge sent U-1105 to the bottom of the Potomac River in 1949 for the sixth and final time. U-1105 remained lost to history until she was re-discovered in 1985 in 91 feet (27.7 meters) of water. U-1105 is the most accessible U-boat off the US East Coast.</p>
-</div>
-
-
-<h6 class="p5"><strong>Monday, January 8, 2024</strong></h6>
-<div class="container-fluid">
-    <p>Following club business, Kris will show some pictures from Hawaii and Eric will talk about how the bends and caisson disease became understood."</p>
-</div>
-</div>
-</div>
-
-
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="./images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
-
-   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
-
-
-
-
-
-
