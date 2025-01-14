@@ -1,99 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
+  <body class="bg-info">
+    <div id="content"></div>
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
-<body class="bg-info">
-<!--   <div data-include="body"></div>
-<div data-include="navsite"></div> -->
-  
+    <div class="container-fluid">
+      <div class="row mx-4">
+        <h1 class="text-center">Dive Report: West Palm Beach by Eric Weiss</h1>
+        <h3 class="text-center">September 3-6, 2010</h3>
+        <p>
+          A group of Patowmack Divers and friends went diving in West Palm
+          Beach, Florida Labor Day weekend, 2010. We dove with Walker's Dive
+          Charters on their boat, The Wetter The Better, which is docked at the
+          Lake Worth Marina.
+        </p>
 
-<div id="content"></div>
+        <p>
+          <img
+            class="left"
+            height="200"
+            width="200"
+            src="./images/2010WPB/IMG_0048.JPG"
+          />
+        </p>
+        <p>
+          We flew down separately to the West Palm Beach airport (PBI) and Fort
+          Lauderdale (FLL) and stayed at a variety of hotels.
+        </p>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+        <p>
+          Friday, September 3. I stopped off at Tulipan Bakery on my way to the
+          dive boat to grab some breakfast and ran into two other divers. The
+          guava and cheese croissants are great and I also had a cortado (Cuban
+          espresso). The boat was late getting in and when it did arrive Captain
+          Bill reported that there were 2 to 5 foot seas, 15 foot visibility,
+          and surge on the bottom. We cannot blame Hurricane Earl for this
+          because it was up by the Outer Banks at the time. We decided to cancel
+          and spend the day relaxing. Most of us went to the Tiki Bar at the
+          Riviera Beach Marina for lunch. They have some good sandwiches and
+          their fish sandwiches are especially good.
+        </p>
 
-<div class="container-fluid">
-<div class="row mx-4">
-  
-		<h1 class="text-center">Dive Report: West Palm Beach by Eric Weiss</h1>
-		<h3 class="text-center">September 3-6, 2010</h3>
-		<p>A group of Patowmack Divers and friends went diving in West Palm Beach, Florida Labor Day weekend, 2010.  We dove with Walker's Dive Charters on their boat, The Wetter The Better, which is docked at the Lake Worth Marina.</p>
-		
-		<p><img class="left" height="200" width="200" src="./images/2010WPB/IMG_0048.JPG"> <p>We flew down separately to the West Palm Beach airport (PBI) and Fort Lauderdale (FLL) and stayed at a variety of hotels.</p> 
+        <p>
+          <img
+            class="right"
+            height="200"
+            px
+            src="./images/2010WPB/IMG_0068.JPG"
+          />
+        </p>
+        <p>
+          We split up for dinner, but a couple of us went to the Yardhouse,
+          which is a chain I first ate at in San Diego. The Yardhouse
+          specializes in beer and sea food.
+        </p>
 
-		<p>Friday, September 3.  I stopped off at Tulipan Bakery on my way to the dive boat to grab some breakfast and ran into two other divers.  The guava and cheese croissants are great and I also had a cortado (Cuban espresso).  The boat was late getting in and when it did arrive Captain Bill reported that there were 2 to 5 foot seas, 15 foot visibility, and surge on the bottom.  We cannot blame Hurricane Earl for this because it was up by the Outer Banks at the time.  We decided to cancel and spend the day relaxing.  Most of us went to the Tiki Bar at the Riviera Beach Marina for lunch.  They have some good sandwiches and their fish sandwiches are especially good.</p>
+        <p>
+          We dove in our own group. Captain Bill dropped us off and then took
+          the others on the boat to another location. When we reached 750 PSI,
+          we headed to the surface as a group and deployed a market. The boat
+          came to pick us up. It headed towards us and then swung around so the
+          stern ladder was a quick swim away. Those of us with cameras handed
+          them up to the crew. We took off our fins and handed them to the crew
+          or put them on our arms and climbed the ladder. Back at our spots on
+          the boat, we switched tanks and were ready for the next dive. The
+          surface interval was an hour after the last diver got out of the
+          water. (No one was diving Nitrox. I frequently dive Nitrox, but if
+          everyone else is using air, I have to wait for them.
+        </p>
 
-		<p><img class="right" height=200 px src="./images/2010WPB/IMG_0068.JPG"> 
-		<p>We split up for dinner, but a couple of us went to the Yardhouse, which is a chain I first ate at in San Diego.  The Yardhouse specializes in beer and sea food.</p>
+        <p>
+          Flower Garden--max 52 feet for 49 minutes<br />
+          Breakers--max 60 feet for 50 minutes
+        </p>
 
-		<p>We dove in our own group.  Captain Bill dropped us off and then took the others on the boat to another location.  When we reached 750 PSI, we headed to the surface as a group and deployed a market.  The boat came to pick us up.  It headed towards us and then swung around so the stern ladder was a quick swim away.  Those of us with cameras handed them up to the crew.  We took off our fins and handed them to the crew or put them on our arms and climbed the ladder.  Back at our spots on the boat, we switched tanks and were ready for the next dive.  The surface interval was an hour after the last diver got out of the water.  (No one was diving Nitrox.  I frequently dive Nitrox, but if everyone else is using air, I have to wait for them.
+        <p>
+          <img
+            class="left"
+            height="200"
+            px
+            src="./images/2010WPB/IMG_0103.JPG"
+          />
+        </p>
+        <p>
+          Saturday, September 4. The Wetter The Better left at 7:45 am. The fish
+          are abundant in West Palm and these dives were great. I saw rock hind,
+          black durgeon, scrawled filefish, spotted goatfish, highhats,
+          trunkfish, Atlantic spadefish,blue chromis, porkfish, yellowtale
+          snapper, grunts, barjack, foureye butterflyfish, spotfin
+          butterflyfish, sergeant major, various parrotfish, gray, french and
+          queen angels, rock beauty, bluehead, yellowhead and creole wrasse,
+          squirrelfish, fairy basslet, trumpetfish and a spotted moray eel.
+        </p>
 
-		Flower Garden--max 52 feet for 49 minutes
-		Breakers--max 60 feet for 50 minutes</p>
+        <p>
+          max 52 feet for 49 minutes<br />
+          max 60 feet for 50 minutes
+        </p>
 
-		<p><img class="left" height=200 px src="./images/2010WPB/IMG_0103.JPG"> 
-<p>Saturday, September 4.  The Wetter The Better left at 7:45 am.  We dove <x and x>.  The fish are abundant in West Palm and these dives were great.  I saw rock hind, black durgeon, scrawled filefish, spotted goatfish, highhats, trunkfish, Atlantic spadefish,blue chromis, porkfish, yellowtale snapper, grunts, barjack, foureye butterflyfish, spotfin butterflyfish, sergeant major, various parrotfish, gray, french and queen angels, rock beauty, bluehead, yellowhead and creole wrasse, squirrelfish, fairy basslet, trumpetfish and a spotted moray eel.
+        <p>
+          Four of us did a night dive with four other divers on the boat. It was
+          the best night dive I've ever done. The location was the Trench, which
+          is like it says. After submerging, we swam to the trench and dropped
+          in. We spend then next 45 minutes looking to see who was out that
+          night. We saw a couple of octopuses with bodies about the size a a
+          large fist, and a span of 18 to 24 inches. They put on a show of
+          changing their coloring as they slide over coral and sand.
+        </p>
 
-max 52 feet for 49 minutes
-max 60 feet for 50 minutes</p>
+        <p>The Trench--max 52 feet for 49 minutes</p>
 
-<p>Four of us did a night dive with four other divers on the boat.  It was the best night dive I've ever done.  The location was the Trench, which is like it says.  After submerging, we swam to the trench and dropped in.  We spend then next 45 minutes looking to see who was out that night.  We saw a couple of octopuses with bodies about the size a a large fist, and a span of 18 to 24 inches.  They put on a show of changing their coloring as they slide over coral and sand.
+        <p>
+          Sunday, September 5 and Monday, September 6. We did morning dives both
+          days, leaving the dock at 7:45.
+        </p>
 
-The Trench--max 52 feet for 49 minutes</p>
+        <p>
+          max 54 feet for 52 minutes<br />
+          max 50 feet for 50 minutes
+        </p>
 
-<p>Sunday, September 5 and Monday, September 6.  We did morning dives both days, leaving the dock at 7:45.  
+        <p>
+          <img
+            class="right"
+            height="200"
+            px
+            src="./images/2010WPB/IMG_0169.JPG"
+          />
+        </p>
+        <p>
+          Monday, September 6. Saturday we had some students getting certified
+          so the choice of sites was limited. And on Saturday, we had a junior
+          diver so he and his father had to be dropped off somewhere the maximum
+          depth was 40 feet. Finally on Monday, the boat was filled with
+          experienced divers so we could go a little deeper. Of course, this
+          meant that we emptied our tanks faster and had more nitrogen loading.
+        </p>
+        <p>max 83 feet for 41 minutes max 70 feet for 39 minutes</p>
+      </div>
+    </div>
+    <div class="container" style="height: 50px">
+      <img src="./images/_DSC4449.jpg" class="h-50 w-100" alt="..." />
+    </div>
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src=".//images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
+    </p>
 
-max 54 feet for 52 minutes
-max 50 feet for 50 minutes</p>
+    <p class="text-center">
+      Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.
 
-		<p><img class="right" height=200 px src="./images/2010WPB/IMG_0169.JPG"> 
-<p>Monday, September 6.  Saturday we had some students getting certified so the choice of sites was limited.  And on Saturday, we had a junior diver so he and his father had to be dropped off somewhere the maximum depth was 40 feet.  Finally on Monday, the boat was filled with experienced divers so we could go a little deeper.  Of course, this meant that we emptied our tanks faster and had more nitrogen loading.
-
-max 83 feet for 41 minutes
-max 70 feet for 39 minutes</p>
-
-   <div class="container" style="height: 50px"><img src="./images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src=".//images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
-
-   <p class="text-center">Copyright (c) 2011-2023 Patowmack Divers.com. All rights reserved.</p>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   </body>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </p>
+  </body>
 </html>
-

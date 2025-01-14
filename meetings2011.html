@@ -1,87 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      <title>Patowmack Divers Home Page</title>
-      <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/ico" href="./favicon.ico" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-      <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-      <script>
-         <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-         $(function () {
-         var includes = $('[data-include]')
-         $.each(includes, function () {
-         var file = $(this).data('include') + '.html'
-         $(this).load(file)
-         })
-         })
-      </script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      <!--  https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+      $(function () {
+        var includes = $("[data-include]");
+        $.each(includes, function () {
+          var file = $(this).data("include") + ".html";
+          $(this).load(file);
+        });
+      });
+    </script>
 
-      <style>
-         p {
-             text-indent: 10px;
-         }
+    <style>
+      p {
+        text-indent: 10px;
+      }
 
-         .dropdown-menu{
-         background-color: #6699FF;
-         border: 1px solid #D9534F;
-         }
-      </style>
-   </head>
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
 
-<body class="bg-info">
-<!--   <div data-include="body"></div>
+  <body class="bg-info">
+    <!--   <div data-include="body"></div>
 <div data-include="navsite"></div> -->
-  
 
-<div id="content"></div>
+    <div id="content"></div>
 
-<script>
-fetch('./headermenu.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('content').innerHTML = data;
-  });
-</script>
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
 
+    <div class="container-fluid">
+      <div class="row mx-4">
+        <h4 class="text-center">2011 Meetings</h4>
 
+        <h6>Wednesday, October 5, 2011--Diving Fiji</h6>
+        Patowmack Divers members Gloria, Sarah and Kris showed pictures and
+        discussed their trip in May to Fiji on the Nai'a
 
+        <h6>Wednesday, September 7, 2011</h6>
+        Marvin Barrash will discuss his book on the U.S.S. Cyclops. From the day
+        it was realized that the U.S.S. Cyclops would never arrive at her
+        destination, much attention has been drawn to the subject of this
+        colossal collier. Many have been curious because of the mystery
+        surrounding her disappearance in the area known as the Bermuda Triangle.
+        Others are interested in naval history and some because of a family
+        connection to a member of her crew. For more details click
+        <a href="http://mysite.verizon.net/vzez3ezf/">here</a>
+        <p>
+          Also...<i>Shooting In The Wild</i> by Chris Palmer, and
+          <i>Marine Sponges: Symbiotic Bacteria & New Drugs</i> by Dr. Russell
+          Hill & Naomi Montavo.
+        </p>
 
-<div class="container-fluid">
-<div class="row mx-4">
-  
-<h4 class="text-center">2011 Meetings</h4>
+        <h6>Wednesday, August 3, 2011</h6>
+        Diving the U.S.S. Monitor - Archaeology at 240 feet with Ron Carmichael
+        <p>
+          The year 2011 marks the 150th anniversary of the beginning of the
+          civil war. Technical Diving Instructor Ron Carmichael explored the
+          wreck of the U.S.S. Monitor. Topics discussed include the wreck's
+          history, Trimix dive planning for 240 foot dives and training required
+          to dive such a historic deep wreck.
+        </p>
 
-<h6>Wednesday, October 5, 2011--Diving Fiji</h6>
-Patowmack Divers members Gloria, Sarah and Kris showed pictures and discussed their trip in May to Fiji on the Nai'a
+        <h6>Wednesday, May 4, 2011</h6>
+        New Frontiers In Dive Medicine
+        <p>
+          Dr. Cook is a contributing author for the medical textbook
+          <i>Expedition Medicine</i> to which he contributed chapters on dive
+          medicine and hazardous marine life. He is currently the Medical Editor
+          for <i>Sport Diver Magazine</i>. Dr. Cook has also served as a
+          consultant to NOAA for search and rescue procedures in diving
+          operations and is one of the contributing authors to the
+          <i>NOAA Diving Manual</i>. He is an award-winning underwater
+          photographer whose photographs have been published in multiple
+          magazines, books, and calendars.
+        </p>
 
-<h6>Wednesday, September 7, 2011</h6>
-Marvin Barrash will discuss his book on the U.S.S. Cyclops.
-From the day it was realized that the U.S.S. Cyclops would never arrive at her destination, much attention has been drawn to the subject of this colossal collier. Many have been curious because of the mystery surrounding her disappearance in the area known as the Bermuda Triangle. Others are interested in naval history and some because of a family connection to a member of her crew. For more details click <a href="http://mysite.verizon.net/vzez3ezf/">here</a>
-<p>Also...<I>Shooting In The Wild</I> by Chris Palmer, and <I>Marine Sponges: Symbiotic Bacteria & New Drugs</I> by Dr. Russell Hill & Naomi Montavo.
+        <p>
+          DAN Referral-Physician Dr. Craig Cook is involved in undersea
+          exploration and undersea medicine. As a physician he is especially
+          interested in the mechanisms of decompression sickness and its
+          treatment in remote locations. He has been an active diver for more
+          than 40 years and is a PADI dive instructor. He also has technical
+          diving certifications for both closed and semi-closed oxygen
+          rebreathers.
+        </p>
+        <p>
+          Dr. Cook is a DAN Instructor with multiple certifications in diving
+          accident management. In addition, he has been a DAN referral physician
+          for over 15 years. His certifications also include that of a NOAA
+          Diving Medical Officer (DMO). Dr. Cook is a contributing author for
+          the medical textbook <i>Expedition Medicine</i> to which he
+          contributed chapters on dive medicine and hazardous marine life. He is
+          currently the Medical Editor for <i>Sport Diver Magazine</i>.
+        </p>
+        <p>
+          In 2008 and 2009 he was the Diving Medical Officer (DMO) for two NOAA
+          expeditions to research and document German U-boats that were lost off
+          the North Carolina coast during the World War II Battle of the
+          Atlantic. He has also been the Diving Medical Officer on several
+          scientific expeditions for reef surveys in the Central Pacific with
+          the New England Aquarium, Woods Hole and Scripps Oceanographic
+          Institutes. He was involved with NOAA and the U.S. Navy as the DMO on
+          the Monitor Expedition in 2003 during which the ironclad&apos;s turret
+          was raised. Dr. Cook has also served as a consultant to NOAA for
+          search and rescue procedures in diving operations and is one of the
+          contributing authors to the <i>NOAA Diving Manual</i>. He is an
+          award-winning underwater photographer whose photographs have been
+          published in multiple magazines, books, and calendars. Besides diving,
+          Dr. Cook is a competitive cyclist and triathlete and has competed in
+          the Hawaiian Ironman competition.
+        </p>
+        <p>
+          Dr. Cook is president of Undersea Medical Consultants in Severna Park,
+          MD.
+        </p>
+      </div>
+    </div>
+    <div class="container" style="height: 50px">
+      <img src="./images/_DSC4449.jpg" class="h-50 w-100" alt="..." />
+    </div>
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "dive at patowmackdivers.com" replace <i> at </i> with @
+    </p>
 
-<h6>Wednesday, August 3, 2011</h6>
-Diving the U.S.S. Monitor - Archaeology at 240 feet with Ron Carmichael
-<p>The year 2011 marks the 150th anniversary of the beginning of the civil war. Technical Diving Instructor Ron Carmichael explored the wreck of the U.S.S. Monitor. Topics discussed include the wreck's history, Trimix dive planning for 240 foot dives and training required to dive such a historic deep wreck.  </p>
+    <p class="text-center">
+      Copyright (c) 2011-2025 Patowmack Divers.com. All rights reserved.
+    </p>
 
-<h6>Wednesday, May 4, 2011</h6>
-  New Frontiers In Dive Medicine
-<p>  Dr. Cook is a contributing author for the medical textbook <I>Expedition Medicine</I> to which he contributed chapters on dive medicine and hazardous marine life.  He is currently the Medical Editor for <I>Sport Diver Magazine</I>.  Dr. Cook has also served as a consultant to NOAA for search and rescue procedures in diving operations and is one of the contributing authors to the <I>NOAA Diving Manual</I>.  He is an award-winning underwater photographer whose photographs have been published in multiple magazines, books, and calendars.</P>
-
-<p>DAN Referral-Physician Dr. Craig Cook is involved in undersea exploration and undersea medicine.  As a physician he is especially interested in the mechanisms of decompression sickness and its treatment in remote locations.  He has been an active diver for more than 40 years and is a PADI dive instructor.  He also has technical diving certifications for both closed and semi-closed oxygen rebreathers.
-<p> Dr. Cook is a DAN Instructor with multiple certifications in diving accident management.  In addition, he has been a DAN referral physician for over 15 years.  His certifications also include that of a NOAA Diving Medical Officer (DMO).  Dr. Cook is a contributing author for the medical textbook <I>Expedition Medicine</I> to which he contributed chapters on dive medicine and hazardous marine life.  He is currently the Medical Editor for <I>Sport Diver Magazine</I>. 
-<p> In 2008 and 2009 he was the Diving Medical Officer (DMO) for two NOAA expeditions to research and document German U-boats that were lost off the North Carolina coast during the World War II Battle of the Atlantic.  He has also been the Diving Medical Officer on several scientific expeditions for reef surveys in the Central Pacific with the New England Aquarium, Woods Hole and Scripps Oceanographic Institutes.  He was involved with NOAA and the U.S. Navy as the DMO on the Monitor Expedition in 2003 during which the ironclad&apos;s turret was raised.  Dr. Cook has also served as a consultant to NOAA for search and rescue procedures in diving operations and is one of the contributing authors to the <I>NOAA Diving Manual</I>.  He is an award-winning underwater photographer whose photographs have been published in multiple magazines, books, and calendars.  Besides diving, Dr. Cook is a competitive cyclist and triathlete and has competed in the Hawaiian Ironman competition.
-<p>Dr. Cook is president of Undersea Medical Consultants in Severna Park, MD.</p>
-   <div class="container" style="height: 50px"><img src="./images/_DSC4449.jpg" class="h-50 w-100"  alt = "..."></div>
-   <p class="text-center"> <a href="http://www.facebook.com/PatowmackDivers"><img src="./images/f_logo.jpg" style="border: none;" height="25" />Follow us on Facebook!</a>
-  or email us at "dive at patowmackdivers.com" replace <i> at </i> with @</p>
-
-   <p class="text-center">Copyright (c) 2011-2025 Patowmack Divers.com. All rights reserved.</p>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
