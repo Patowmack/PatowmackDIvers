@@ -129,3 +129,12 @@ Citations:
 [6] https://mdbootstrap.com/docs/standard/layout/grid/
 [7] https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp
 
+
+
+git remote add origin <your_repository_url>
+
+Push to remote: git push -u origin main
+
+    -u sets the upstream branch, so you can use git push without specifying the branch in the future.
+
+    
