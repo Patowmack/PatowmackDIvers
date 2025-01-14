@@ -81,6 +81,11 @@ a img {
 	border: none;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 img.bottom {
 	width: 22%;
 }
